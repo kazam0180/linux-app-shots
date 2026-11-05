@@ -1,0 +1,9 @@
+/*.avif
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+  Content-Type: image/avif
+  X-Content-Type-Options: nosniff
+
+/
+  Cache-Control: public, max-age=300
+/*/
+  Cache-Control: public, max-age=300
