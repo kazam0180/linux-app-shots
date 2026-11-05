@@ -1,0 +1,39 @@
+name: Generate directory listing
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-26.04
+
+    steps:
+      - name: 🔽 Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate index.html files recursively
+        uses: coyoteclan/directory-listing@main
+        with:
+          target: '.'
+          ignore: |
+            **/index.html
+            .git/**
+            .gitignore
+          show-hidden: false
+          overwrite: true
+          indexing: true
+          footer: '<a href="https://kazam.pages.dev/donate.html">Donate</a><br>Repository <a href="https://github.com/${{ github.repository }}">${{ github.repository }}</a>'
+
+      - name: 📥 Commit generated listings
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "chore: update directory listings" || echo "No changes to commit"
+          git push
