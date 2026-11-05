@@ -1,5 +1,6 @@
 name: Generate directory listing
 
+
 on:
   push:
     branches:
