@@ -1,0 +1,4769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="generator" content="github.com/coyoteclan/directory-listing"/>
+  <meta name="description" content="Index of /"/>
+  <title>Index of /</title>
+  <style>:root {
+  --color-text-primary: #444;
+  --color-text-secondary: #111;
+  --color-bg-primary: #ddd;
+  --color-bg-secondary: #bbb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text-primary: #bbb;
+    --color-text-secondary: #eee;
+    --color-bg-primary: #242424;
+    --color-bg-secondary: #444;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 2em 1.25em;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  body,
+  html {
+    font-size: 20px;
+  }
+}
+
+a {
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.85;
+    transition: opacity 0.2s linear;
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: var(--color-text-secondary);
+  }
+}
+
+header,
+main {
+  padding: 0 2rem;
+}
+
+header {
+  margin-bottom: 1rem;
+
+  h1 {
+    display: flex;
+    align-items: center;
+
+    & > span {
+      margin-left: 0.5rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.75em;
+      background-color: var(--color-bg-secondary);
+    }
+  }
+}
+
+main {
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th,
+  td {
+    padding: 1.25rem 1rem;
+    border-bottom: 1px solid var(--color-bg-secondary);
+    text-align: left;
+    white-space: nowrap;
+
+    svg.icon {
+      width: 1em;
+      height: 0.98em;
+      padding-right: 0.1em;
+      position: relative;
+      top: 0.2em;
+    }
+  }
+
+  th.name,
+  td.name {
+    text-align: left;
+  }
+
+  th.size,
+  td.size {
+    width: 10%;
+    text-align: center;
+  }
+
+  th.mod-date,
+  td.mod-date {
+    width: 20%;
+    text-align: center;
+  }
+
+  tbody > tr:last-child > td {
+    border-bottom: none;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.flag-strip {
+  height: .25rem;
+  background-image: linear-gradient(to right, #EE2A35 0%, #EE2A35 25%, black 25%, black 50%, white 50%, white 75%, #009736 75%, #009736 100%);
+  background-size: 100%;
+}
+
+/* README Styles */
+.readme-container {
+  max-width: 100%;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: var(--color-bg-primary);
+  border-radius: 8px;
+  border-left: 4px solid var(--color-text-secondary);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  line-height: 1.6;
+  color: var(--color-text-primary);
+  border: 1px solid var(--color-bg-secondary);
+}
+
+.readme-container h1,
+.readme-container h2,
+.readme-container h3,
+.readme-container h4,
+.readme-container h5,
+.readme-container h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--color-text-secondary);
+}
+
+.readme-container h1 {
+  font-size: 2em;
+  border-bottom: 1px solid var(--color-bg-secondary);
+  padding-bottom: 0.3em;
+}
+
+.readme-container h2 {
+  font-size: 1.5em;
+  border-bottom: 1px solid var(--color-bg-secondary);
+  padding-bottom: 0.3em;
+}
+
+.readme-container h3 {
+  font-size: 1.25em;
+}
+
+.readme-container h4 {
+  font-size: 1em;
+}
+
+.readme-container h5 {
+  font-size: 0.875em;
+}
+
+.readme-container h6 {
+  font-size: 0.85em;
+  color: var(--color-text-primary);
+  opacity: 0.8;
+}
+
+.readme-container p {
+  margin-bottom: 1em;
+}
+
+.readme-container ul,
+.readme-container ol {
+  margin-bottom: 1em;
+  padding-left: 2em;
+}
+
+.readme-container li {
+  margin-bottom: 0.25em;
+}
+
+.readme-container code {
+  padding: 0.2em 0.4em;
+  background-color: var(--color-bg-secondary);
+  border-radius: 4px;
+  font-family: ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 85%;
+  color: var(--color-text-secondary);
+}
+
+.readme-container pre {
+  padding: 1rem;
+  background-color: var(--color-bg-secondary);
+  border-radius: 6px;
+  overflow-x: auto;
+  margin-bottom: 1em;
+  border: 1px solid var(--color-bg-secondary);
+}
+
+.readme-container pre code {
+  background: none;
+  padding: 0;
+  font-size: 100%;
+  color: var(--color-text-primary);
+}
+
+.readme-container blockquote {
+  padding: 0 1em;
+  color: var(--color-text-primary);
+  opacity: 0.8;
+  border-left: 0.25em solid var(--color-bg-secondary);
+  margin-bottom: 1em;
+}
+
+.readme-container table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.readme-container table th,
+.readme-container table td {
+  padding: 0.75rem;
+  border: 1px solid var(--color-bg-secondary);
+  text-align: left;
+}
+
+.readme-container table th {
+  font-weight: 600;
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-secondary);
+}
+
+.readme-container a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.readme-container a:hover {
+  opacity: 0.85;
+  transition: opacity 0.2s linear;
+  text-decoration: underline;
+}
+
+.readme-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.readme-container hr {
+  border: none;
+  border-top: 1px solid var(--color-bg-secondary);
+  margin: 1.5em 0;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 480px) {
+  .readme-container {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+}
+</style>
+</head>
+<body>
+<div>
+  <p align="center">Free Palestine!</p>
+  <div class="flag-strip"></div>
+</div>
+<header>
+  <h1> Index of <span>/</span></h1>
+</header>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+  <defs>
+    <symbol id="dir" viewBox="0 0 24 24" fill="currentColor">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M9 3a1 1 0 0 1 .608 .206l.1 .087l2.706 2.707h6.586a3 3 0 0 1 2.995 2.824l.005 .176v8a3 3 0 0 1
+        -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-11a3 3 0 0 1 2.824 -2.995l.176 -.005h4z"/>
+    </symbol>
+    <symbol id="file" viewBox="0 0 24 24" fill="currentColor">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117
+        .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005
+        -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005h5z"/>
+      <path d="M19 7h-4l-.001 -4.001z"/>
+    </symbol>
+  </defs>
+</svg>
+<main>
+  <table>
+    <thead>
+      <tr>
+        <th class="name">Name</th>
+        <th class="size">Size</th>
+        <th class="mod-date">Last Modified</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./zuno">zuno</a>
+          </td>
+          <td class="size" title="2417438">2.31 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./zorite">zorite</a>
+          </td>
+          <td class="size" title="735624">718.38 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./zoom">zoom</a>
+          </td>
+          <td class="size" title="12036">11.75 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./zedis">zedis</a>
+          </td>
+          <td class="size" title="576016">562.52 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./zcode">zcode</a>
+          </td>
+          <td class="size" title="64458">62.95 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./xstreamingdesktop">xstreamingdesktop</a>
+          </td>
+          <td class="size" title="2147284">2.05 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./xournal++">xournal++</a>
+          </td>
+          <td class="size" title="56468">55.14 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./xl-view">xl-view</a>
+          </td>
+          <td class="size" title="524446">512.15 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./winpodx">winpodx</a>
+          </td>
+          <td class="size" title="340478">332.5 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./windows95">windows95</a>
+          </td>
+          <td class="size" title="3396912">3.24 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./webamp">webamp</a>
+          </td>
+          <td class="size" title="203826">199.05 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./waterfox">waterfox</a>
+          </td>
+          <td class="size" title="200070">195.38 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./warpinator">warpinator</a>
+          </td>
+          <td class="size" title="21130">20.63 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./walc">walc</a>
+          </td>
+          <td class="size" title="196638">192.03 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./vscodium">vscodium</a>
+          </td>
+          <td class="size" title="161590">157.8 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./voquill">voquill</a>
+          </td>
+          <td class="size" title="2203204">2.1 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./voicestudio">voicestudio</a>
+          </td>
+          <td class="size" title="510486">498.52 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./vlc-git">vlc-git</a>
+          </td>
+          <td class="size" title="43050">42.04 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./vlc">vlc</a>
+          </td>
+          <td class="size" title="29244">28.56 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./vivaldi-stable">vivaldi-stable</a>
+          </td>
+          <td class="size" title="150046">146.53 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./visigrid">visigrid</a>
+          </td>
+          <td class="size" title="821296">802.05 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./virtualbox">virtualbox</a>
+          </td>
+          <td class="size" title="3955518">3.77 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./video2x">video2x</a>
+          </td>
+          <td class="size" title="729272">712.18 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ventoy">ventoy</a>
+          </td>
+          <td class="size" title="169354">165.38 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./vengi">vengi</a>
+          </td>
+          <td class="size" title="4589766">4.38 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./unetbootin">unetbootin</a>
+          </td>
+          <td class="size" title="277454">270.95 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./typability">typability</a>
+          </td>
+          <td class="size" title="74000">72.27 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./tuxpusher">tuxpusher</a>
+          </td>
+          <td class="size" title="409392">399.8 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./tur-tauri">tur-tauri</a>
+          </td>
+          <td class="size" title="88432">86.36 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./trilium">trilium</a>
+          </td>
+          <td class="size" title="102460">100.06 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./treesheets">treesheets</a>
+          </td>
+          <td class="size" title="503132">491.34 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./transmission-gtk">transmission-gtk</a>
+          </td>
+          <td class="size" title="24928">24.34 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./torrents_digger">torrents_digger</a>
+          </td>
+          <td class="size" title="19352">18.9 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./torcs">torcs</a>
+          </td>
+          <td class="size" title="935630">913.7 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./tolaria">tolaria</a>
+          </td>
+          <td class="size" title="530890">518.45 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./timg">timg</a>
+          </td>
+          <td class="size" title="695706">679.4 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./thunderbird">thunderbird</a>
+          </td>
+          <td class="size" title="82292">80.36 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./thorium">thorium</a>
+          </td>
+          <td class="size" title="22956">22.42 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./texturelab">texturelab</a>
+          </td>
+          <td class="size" title="503960">492.15 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./telly-skout">telly-skout</a>
+          </td>
+          <td class="size" title="26566">25.94 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./telegram">telegram</a>
+          </td>
+          <td class="size" title="45890">44.81 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./teams">teams</a>
+          </td>
+          <td class="size" title="59776">58.38 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./tageditor">tageditor</a>
+          </td>
+          <td class="size" title="306072">298.9 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./tablexplore">tablexplore</a>
+          </td>
+          <td class="size" title="273956">267.54 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./sysd-manager">sysd-manager</a>
+          </td>
+          <td class="size" title="792470">773.9 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./symphytum">symphytum</a>
+          </td>
+          <td class="size" title="251606">245.71 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./sweeper">sweeper</a>
+          </td>
+          <td class="size" title="64242">62.74 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./sview">sview</a>
+          </td>
+          <td class="size" title="251606">245.71 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./surf">surf</a>
+          </td>
+          <td class="size" title="1250968">1.19 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./supertux">supertux</a>
+          </td>
+          <td class="size" title="1502166">1.43 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./strongbox">strongbox</a>
+          </td>
+          <td class="size" title="670680">654.96 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./stirling-pdf">stirling-pdf</a>
+          </td>
+          <td class="size" title="52300">51.07 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./spelunkyclassichd">spelunkyclassichd</a>
+          </td>
+          <td class="size" title="211792">206.83 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./spacecadet">spacecadet</a>
+          </td>
+          <td class="size" title="1284982">1.23 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./sonusmix">sonusmix</a>
+          </td>
+          <td class="size" title="57122">55.78 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./soil-editor">soil-editor</a>
+          </td>
+          <td class="size" title="162566">158.76 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./skiff">skiff</a>
+          </td>
+          <td class="size" title="1013740">989.98 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./skanpage">skanpage</a>
+          </td>
+          <td class="size" title="196164">191.57 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./simpmusic">simpmusic</a>
+          </td>
+          <td class="size" title="473414">462.32 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./shotcut">shotcut</a>
+          </td>
+          <td class="size" title="341046">333.05 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./serioussamtfe">serioussamtfe</a>
+          </td>
+          <td class="size" title="18663100">17.8 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./scrcpy">scrcpy</a>
+          </td>
+          <td class="size" title="146018">142.6 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ryusak">ryusak</a>
+          </td>
+          <td class="size" title="960758">938.24 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./rustdesk">rustdesk</a>
+          </td>
+          <td class="size" title="1218572">1.16 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./runelite">runelite</a>
+          </td>
+          <td class="size" title="1622476">1.55 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./rquickshare">rquickshare</a>
+          </td>
+          <td class="size" title="182286">178.01 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./redriver2">redriver2</a>
+          </td>
+          <td class="size" title="298786">291.78 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./rednukem">rednukem</a>
+          </td>
+          <td class="size" title="158582">154.87 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./redeclipse">redeclipse</a>
+          </td>
+          <td class="size" title="1411428">1.35 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./recordly">recordly</a>
+          </td>
+          <td class="size" title="308998">301.76 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./quantumlauncher-enhanced">quantumlauncher-enhanced</a>
+          </td>
+          <td class="size" title="555270">542.26 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./qtscrcpy">qtscrcpy</a>
+          </td>
+          <td class="size" title="12018414">11.46 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:04 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./qterminal">qterminal</a>
+          </td>
+          <td class="size" title="235208">229.7 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./qmapshack">qmapshack</a>
+          </td>
+          <td class="size" title="411936">402.28 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./qimgv">qimgv</a>
+          </td>
+          <td class="size" title="1046154">1021.63 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./qbittorrent">qbittorrent</a>
+          </td>
+          <td class="size" title="82356">80.43 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./pyfa">pyfa</a>
+          </td>
+          <td class="size" title="266048">259.81 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ps2-pnacher">ps2-pnacher</a>
+          </td>
+          <td class="size" title="25832">25.23 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./proxyman">proxyman</a>
+          </td>
+          <td class="size" title="2601348">2.48 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./prism">prism</a>
+          </td>
+          <td class="size" title="822158">802.89 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./poedit">poedit</a>
+          </td>
+          <td class="size" title="133656">130.52 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./pocket-sync">pocket-sync</a>
+          </td>
+          <td class="size" title="5386094">5.14 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./pixelpulse2">pixelpulse2</a>
+          </td>
+          <td class="size" title="58808">57.43 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./pika-backup">pika-backup</a>
+          </td>
+          <td class="size" title="46396">45.31 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./picmi">picmi</a>
+          </td>
+          <td class="size" title="393470">384.25 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./photogimp">photogimp</a>
+          </td>
+          <td class="size" title="1312472">1.25 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./pensela">pensela</a>
+          </td>
+          <td class="size" title="3410448">3.25 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./peersky-browser">peersky-browser</a>
+          </td>
+          <td class="size" title="1443310">1.38 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./pebble">pebble</a>
+          </td>
+          <td class="size" title="388744">379.63 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./pcsx-redux-enhanced">pcsx-redux-enhanced</a>
+          </td>
+          <td class="size" title="922386">900.77 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./pcexhumed">pcexhumed</a>
+          </td>
+          <td class="size" title="75232">73.47 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./paseo">paseo</a>
+          </td>
+          <td class="size" title="892444">871.53 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./palapeli">palapeli</a>
+          </td>
+          <td class="size" title="323270">315.69 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./overte">overte</a>
+          </td>
+          <td class="size" title="501754">489.99 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./oryxis">oryxis</a>
+          </td>
+          <td class="size" title="536018">523.46 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./orca">orca</a>
+          </td>
+          <td class="size" title="757754">739.99 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./opera">opera</a>
+          </td>
+          <td class="size" title="331892">324.11 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./opentoonz">opentoonz</a>
+          </td>
+          <td class="size" title="738808">721.49 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./openswe1r">openswe1r</a>
+          </td>
+          <td class="size" title="473958">462.85 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./openloco">openloco</a>
+          </td>
+          <td class="size" title="1500730">1.43 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./openlara">openlara</a>
+          </td>
+          <td class="size" title="1090888">1.04 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./openhv">openhv</a>
+          </td>
+          <td class="size" title="2562002">2.44 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./openhands">openhands</a>
+          </td>
+          <td class="size" title="304140">297.01 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./opengothic">opengothic</a>
+          </td>
+          <td class="size" title="2368308">2.26 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./opendeck">opendeck</a>
+          </td>
+          <td class="size" title="376138">367.32 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./opencoduo">opencoduo</a>
+          </td>
+          <td class="size" title="2811732">2.68 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./openboardview">openboardview</a>
+          </td>
+          <td class="size" title="644392">629.29 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./openarena">openarena</a>
+          </td>
+          <td class="size" title="1258550">1.2 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./onlyoffice">onlyoffice</a>
+          </td>
+          <td class="size" title="358630">350.22 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./omegat">omegat</a>
+          </td>
+          <td class="size" title="1022990">999.01 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./olive-legacy">olive-legacy</a>
+          </td>
+          <td class="size" title="354552">346.24 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./olive">olive</a>
+          </td>
+          <td class="size" title="424350">414.4 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./oleafly">oleafly</a>
+          </td>
+          <td class="size" title="4009478">3.82 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ocenaudio">ocenaudio</a>
+          </td>
+          <td class="size" title="132550">129.44 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./nxengine-evo">nxengine-evo</a>
+          </td>
+          <td class="size" title="11358">11.09 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./noutube">noutube</a>
+          </td>
+          <td class="size" title="3521696">3.36 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./note-gen">note-gen</a>
+          </td>
+          <td class="size" title="620054">605.52 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./node-pdf">node-pdf</a>
+          </td>
+          <td class="size" title="970744">947.99 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./nfsiise">nfsiise</a>
+          </td>
+          <td class="size" title="400998">391.6 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./netpanzer">netpanzer</a>
+          </td>
+          <td class="size" title="447836">437.34 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./neovide">neovide</a>
+          </td>
+          <td class="size" title="147062">143.62 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./neosurf">neosurf</a>
+          </td>
+          <td class="size" title="275586">269.13 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./neodlp">neodlp</a>
+          </td>
+          <td class="size" title="58804">57.43 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./nblood">nblood</a>
+          </td>
+          <td class="size" title="142262">138.93 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./nanosaur">nanosaur</a>
+          </td>
+          <td class="size" title="575662">562.17 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./musicat">musicat</a>
+          </td>
+          <td class="size" title="5136730">4.9 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./multica">multica</a>
+          </td>
+          <td class="size" title="143466">140.1 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./moon-lander">moon-lander</a>
+          </td>
+          <td class="size" title="148792">145.3 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./mlv-app">mlv-app</a>
+          </td>
+          <td class="size" title="1726924">1.65 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./minigalaxy">minigalaxy</a>
+          </td>
+          <td class="size" title="1397080">1.33 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./midori">midori</a>
+          </td>
+          <td class="size" title="952770">930.44 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./meguri">meguri</a>
+          </td>
+          <td class="size" title="462384">451.55 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./mate-system-monitor">mate-system-monitor</a>
+          </td>
+          <td class="size" title="87274">85.23 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./markra">markra</a>
+          </td>
+          <td class="size" title="1800434">1.72 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./lskat">lskat</a>
+          </td>
+          <td class="size" title="457588">446.86 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./lrcget">lrcget</a>
+          </td>
+          <td class="size" title="370282">361.6 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./lossless-cut">lossless-cut</a>
+          </td>
+          <td class="size" title="723780">706.82 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./lobehub">lobehub</a>
+          </td>
+          <td class="size" title="313484">306.14 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./lite-xl">lite-xl</a>
+          </td>
+          <td class="size" title="501610">489.85 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./listexteditor">listexteditor</a>
+          </td>
+          <td class="size" title="64554">63.04 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./liko-12">liko-12</a>
+          </td>
+          <td class="size" title="6672">6.52 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./libreoffice">libreoffice</a>
+          </td>
+          <td class="size" title="186272">181.91 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./lenspect">lenspect</a>
+          </td>
+          <td class="size" title="67316">65.74 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./lemonade">lemonade</a>
+          </td>
+          <td class="size" title="82816">80.88 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./legacylauncher">legacylauncher</a>
+          </td>
+          <td class="size" title="2140714">2.04 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kwrite">kwrite</a>
+          </td>
+          <td class="size" title="90064">87.95 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kweather">kweather</a>
+          </td>
+          <td class="size" title="92246">90.08 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kwave">kwave</a>
+          </td>
+          <td class="size" title="65952">64.41 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kubrick">kubrick</a>
+          </td>
+          <td class="size" title="134508">131.36 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ktuberling">ktuberling</a>
+          </td>
+          <td class="size" title="849362">829.46 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ktrip">ktrip</a>
+          </td>
+          <td class="size" title="391142">381.97 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ktimer">ktimer</a>
+          </td>
+          <td class="size" title="22182">21.66 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kteatime">kteatime</a>
+          </td>
+          <td class="size" title="27014">26.38 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ksudoku">ksudoku</a>
+          </td>
+          <td class="size" title="526632">514.29 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ksquares">ksquares</a>
+          </td>
+          <td class="size" title="19936">19.47 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kspaceduel">kspaceduel</a>
+          </td>
+          <td class="size" title="52264">51.04 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ksnakeduel">ksnakeduel</a>
+          </td>
+          <td class="size" title="685792">669.72 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ksirk">ksirk</a>
+          </td>
+          <td class="size" title="466314">455.38 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kshisen">kshisen</a>
+          </td>
+          <td class="size" title="304504">297.37 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./krita">krita</a>
+          </td>
+          <td class="size" title="582652">569 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kreversi">kreversi</a>
+          </td>
+          <td class="size" title="179210">175.01 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./krecorder">krecorder</a>
+          </td>
+          <td class="size" title="28986">28.31 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kpat">kpat</a>
+          </td>
+          <td class="size" title="783320">764.96 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kotatogram">kotatogram</a>
+          </td>
+          <td class="size" title="206036">201.21 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./koreader">koreader</a>
+          </td>
+          <td class="size" title="372180">363.46 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kopuz">kopuz</a>
+          </td>
+          <td class="size" title="1036258">1011.97 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./konquest">konquest</a>
+          </td>
+          <td class="size" title="215896">210.84 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kongress">kongress</a>
+          </td>
+          <td class="size" title="66454">64.9 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kollision">kollision</a>
+          </td>
+          <td class="size" title="27230">26.59 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kolf">kolf</a>
+          </td>
+          <td class="size" title="296438">289.49 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./knights">knights</a>
+          </td>
+          <td class="size" title="35416">34.59 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./knetwalk">knetwalk</a>
+          </td>
+          <td class="size" title="160220">156.46 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./knavalbattle">knavalbattle</a>
+          </td>
+          <td class="size" title="299502">292.48 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kmines">kmines</a>
+          </td>
+          <td class="size" title="236702">231.15 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kmahjongg">kmahjongg</a>
+          </td>
+          <td class="size" title="540558">527.89 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./klickety">klickety</a>
+          </td>
+          <td class="size" title="22164">21.64 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kjumpingcube">kjumpingcube</a>
+          </td>
+          <td class="size" title="126250">123.29 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kiriki">kiriki</a>
+          </td>
+          <td class="size" title="107684">105.16 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./killbots">killbots</a>
+          </td>
+          <td class="size" title="186986">182.6 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kigo">kigo</a>
+          </td>
+          <td class="size" title="242894">237.2 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kgpg">kgpg</a>
+          </td>
+          <td class="size" title="135738">132.56 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kgoldrunner">kgoldrunner</a>
+          </td>
+          <td class="size" title="309870">302.61 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kfourinline">kfourinline</a>
+          </td>
+          <td class="size" title="153776">150.17 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kfind">kfind</a>
+          </td>
+          <td class="size" title="52744">51.51 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./keysmith">keysmith</a>
+          </td>
+          <td class="size" title="15618">15.25 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kdiamond">kdiamond</a>
+          </td>
+          <td class="size" title="553836">540.86 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kdf">kdf</a>
+          </td>
+          <td class="size" title="60706">59.28 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kdenlive">kdenlive</a>
+          </td>
+          <td class="size" title="180226">176 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kdebugsettings">kdebugsettings</a>
+          </td>
+          <td class="size" title="81068">79.17 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kclock">kclock</a>
+          </td>
+          <td class="size" title="23358">22.81 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kcharselect">kcharselect</a>
+          </td>
+          <td class="size" title="122632">119.76 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kcalc">kcalc</a>
+          </td>
+          <td class="size" title="28492">27.82 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kbreakout">kbreakout</a>
+          </td>
+          <td class="size" title="489212">477.75 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kbounce">kbounce</a>
+          </td>
+          <td class="size" title="471112">460.07 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kblocks">kblocks</a>
+          </td>
+          <td class="size" title="504158">492.34 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kblackbox">kblackbox</a>
+          </td>
+          <td class="size" title="185712">181.36 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kbackup">kbackup</a>
+          </td>
+          <td class="size" title="178820">174.63 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./katomic">katomic</a>
+          </td>
+          <td class="size" title="494526">482.94 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kate">kate</a>
+          </td>
+          <td class="size" title="93838">91.64 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kapman">kapman</a>
+          </td>
+          <td class="size" title="490328">478.84 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kalm">kalm</a>
+          </td>
+          <td class="size" title="9678">9.45 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./kajongg">kajongg</a>
+          </td>
+          <td class="size" title="180696">176.46 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./jdownloader2">jdownloader2</a>
+          </td>
+          <td class="size" title="68484">66.88 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./isoimagewriter">isoimagewriter</a>
+          </td>
+          <td class="size" title="30778">30.06 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./inkscape">inkscape</a>
+          </td>
+          <td class="size" title="840130">820.44 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./imthemes">imthemes</a>
+          </td>
+          <td class="size" title="269674">263.35 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./i3lock-color">i3lock-color</a>
+          </td>
+          <td class="size" title="323000">315.43 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./htop">htop</a>
+          </td>
+          <td class="size" title="76156">74.37 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./hermes">hermes</a>
+          </td>
+          <td class="size" title="317846">310.4 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./helium">helium</a>
+          </td>
+          <td class="size" title="2729858">2.6 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./heat1d">heat1d</a>
+          </td>
+          <td class="size" title="95178">92.95 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./headlamp">headlamp</a>
+          </td>
+          <td class="size" title="312218">304.9 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./handbrake">handbrake</a>
+          </td>
+          <td class="size" title="204502">199.71 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./granatier">granatier</a>
+          </td>
+          <td class="size" title="611320">596.99 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./gram-enhanced">gram-enhanced</a>
+          </td>
+          <td class="size" title="404574">395.09 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./goxel">goxel</a>
+          </td>
+          <td class="size" title="768680">750.66 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./gospel">gospel</a>
+          </td>
+          <td class="size" title="191238">186.76 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./godot">godot</a>
+          </td>
+          <td class="size" title="1994944">1.9 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./gnome-system-monitor">gnome-system-monitor</a>
+          </td>
+          <td class="size" title="179838">175.62 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./gnome-calculator">gnome-calculator</a>
+          </td>
+          <td class="size" title="263346">257.17 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./gittyup">gittyup</a>
+          </td>
+          <td class="size" title="264316">258.12 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./gitfourchette">gitfourchette</a>
+          </td>
+          <td class="size" title="422418">412.52 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./gimp-hybrid">gimp-hybrid</a>
+          </td>
+          <td class="size" title="362378">353.88 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./gimp">gimp</a>
+          </td>
+          <td class="size" title="287490">280.75 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./genoffice">genoffice</a>
+          </td>
+          <td class="size" title="197158">192.54 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./gearsystem">gearsystem</a>
+          </td>
+          <td class="size" title="1265648">1.21 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./gearlynx">gearlynx</a>
+          </td>
+          <td class="size" title="1239254">1.18 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./geargrafx">geargrafx</a>
+          </td>
+          <td class="size" title="1553068">1.48 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./gearcoleco">gearcoleco</a>
+          </td>
+          <td class="size" title="1262410">1.2 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./gearboy">gearboy</a>
+          </td>
+          <td class="size" title="1539318">1.47 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./game-cheetah">game-cheetah</a>
+          </td>
+          <td class="size" title="382934">373.96 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./gaiasky">gaiasky</a>
+          </td>
+          <td class="size" title="17880464">17.05 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./freetube">freetube</a>
+          </td>
+          <td class="size" title="1353522">1.29 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./freecad">freecad</a>
+          </td>
+          <td class="size" title="632874">618.04 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./francis">francis</a>
+          </td>
+          <td class="size" title="42696">41.7 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./frame">frame</a>
+          </td>
+          <td class="size" title="1117754">1.07 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./flare">flare</a>
+          </td>
+          <td class="size" title="3893416">3.71 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./flameshot">flameshot</a>
+          </td>
+          <td class="size" title="199308">194.64 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./firefox">firefox</a>
+          </td>
+          <td class="size" title="114644">111.96 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./firedragon">firedragon</a>
+          </td>
+          <td class="size" title="361338">352.87 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./filezilla">filezilla</a>
+          </td>
+          <td class="size" title="77694">75.87 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./filelight">filelight</a>
+          </td>
+          <td class="size" title="21710">21.2 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./featherpad">featherpad</a>
+          </td>
+          <td class="size" title="282892">276.26 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./falkon">falkon</a>
+          </td>
+          <td class="size" title="225194">219.92 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./extension-manager">extension-manager</a>
+          </td>
+          <td class="size" title="42558">41.56 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./evince">evince</a>
+          </td>
+          <td class="size" title="162638">158.83 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./eternal-lands">eternal-lands</a>
+          </td>
+          <td class="size" title="1080276">1.03 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ensoai">ensoai</a>
+          </td>
+          <td class="size" title="10678432">10.18 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./emdash">emdash</a>
+          </td>
+          <td class="size" title="540934">528.26 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./emacs-nox">emacs-nox</a>
+          </td>
+          <td class="size" title="209854">204.94 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./duf">duf</a>
+          </td>
+          <td class="size" title="197912">193.27 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./duckstation">duckstation</a>
+          </td>
+          <td class="size" title="419604">409.77 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./dosemu">dosemu</a>
+          </td>
+          <td class="size" title="26060">25.45 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./dosbox-pure-unleashed">dosbox-pure-unleashed</a>
+          </td>
+          <td class="size" title="18942">18.5 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./dolphin-memory-engine">dolphin-memory-engine</a>
+          </td>
+          <td class="size" title="92904">90.73 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./dinox">dinox</a>
+          </td>
+          <td class="size" title="664418">648.85 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./dino-rss-electron">dino-rss-electron</a>
+          </td>
+          <td class="size" title="1072584">1.02 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./devilutionx">devilutionx</a>
+          </td>
+          <td class="size" title="417834">408.04 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./deemix-remastered">deemix-remastered</a>
+          </td>
+          <td class="size" title="5800584">5.53 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./dealers-choice">dealers-choice</a>
+          </td>
+          <td class="size" title="3344030">3.19 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./database-dossier">database-dossier</a>
+          </td>
+          <td class="size" title="101042">98.67 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./dashbeam">dashbeam</a>
+          </td>
+          <td class="size" title="8918">8.71 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./daggerfall-unity">daggerfall-unity</a>
+          </td>
+          <td class="size" title="1965280">1.87 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./cromagrally">cromagrally</a>
+          </td>
+          <td class="size" title="798148">779.44 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./criteria1d-pro">criteria1d-pro</a>
+          </td>
+          <td class="size" title="154670">151.04 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./criteria-geo">criteria-geo</a>
+          </td>
+          <td class="size" title="1001218">977.75 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./cosmonium">cosmonium</a>
+          </td>
+          <td class="size" title="627834">613.12 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./converseen">converseen</a>
+          </td>
+          <td class="size" title="229656">224.27 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./commander-wars">commander-wars</a>
+          </td>
+          <td class="size" title="349000">340.82 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./codeinoven">codeinoven</a>
+          </td>
+          <td class="size" title="852466">832.49 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./code">code</a>
+          </td>
+          <td class="size" title="381008">372.08 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./clownmdemu">clownmdemu</a>
+          </td>
+          <td class="size" title="834458">814.9 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./clk">clk</a>
+          </td>
+          <td class="size" title="623752">609.13 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./classin">classin</a>
+          </td>
+          <td class="size" title="250094">244.23 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./clamui">clamui</a>
+          </td>
+          <td class="size" title="11026">10.77 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./chromium-bsu">chromium-bsu</a>
+          </td>
+          <td class="size" title="320598">313.08 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./chromium">chromium</a>
+          </td>
+          <td class="size" title="304740">297.6 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./checkra1n">checkra1n</a>
+          </td>
+          <td class="size" title="968">968 B</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./chatgpt-next-web">chatgpt-next-web</a>
+          </td>
+          <td class="size" title="359690">351.26 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./celestia-enanched">celestia-enanched</a>
+          </td>
+          <td class="size" title="404568">395.09 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./celestia">celestia</a>
+          </td>
+          <td class="size" title="218856">213.73 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./cc-switch">cc-switch</a>
+          </td>
+          <td class="size" title="238776">233.18 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./catalyst">catalyst</a>
+          </td>
+          <td class="size" title="79894">78.02 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./cartridges">cartridges</a>
+          </td>
+          <td class="size" title="362342">353.85 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./bulky">bulky</a>
+          </td>
+          <td class="size" title="37814">36.93 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./browservice">browservice</a>
+          </td>
+          <td class="size" title="272786">266.39 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./brave-origin">brave-origin</a>
+          </td>
+          <td class="size" title="1321162">1.26 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./brave">brave</a>
+          </td>
+          <td class="size" title="403764">394.3 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./bovo">bovo</a>
+          </td>
+          <td class="size" title="28476">27.81 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./bomber">bomber</a>
+          </td>
+          <td class="size" title="483876">472.54 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./blender">blender</a>
+          </td>
+          <td class="size" title="859902">839.75 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./billard-gl">billard-gl</a>
+          </td>
+          <td class="size" title="211856">206.89 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./bettermediainfo-enhanced">bettermediainfo-enhanced</a>
+          </td>
+          <td class="size" title="133554">130.42 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./baobab">baobab</a>
+          </td>
+          <td class="size" title="108246">105.71 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./awakened-poe-trade">awakened-poe-trade</a>
+          </td>
+          <td class="size" title="1950538">1.86 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./avidemux-qt">avidemux-qt</a>
+          </td>
+          <td class="size" title="85052">83.06 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./avidemux">avidemux</a>
+          </td>
+          <td class="size" title="85052">83.06 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./astro-editor">astro-editor</a>
+          </td>
+          <td class="size" title="611934">597.59 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./asbru-cm">asbru-cm</a>
+          </td>
+          <td class="size" title="339008">331.06 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./arrowdl">arrowdl</a>
+          </td>
+          <td class="size" title="91502">89.36 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./arocrypt">arocrypt</a>
+          </td>
+          <td class="size" title="297040">290.08 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./armagetronad">armagetronad</a>
+          </td>
+          <td class="size" title="345182">337.09 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ark">ark</a>
+          </td>
+          <td class="size" title="125222">122.29 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./argus-overview">argus-overview</a>
+          </td>
+          <td class="size" title="561042">547.89 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./arena-tracker">arena-tracker</a>
+          </td>
+          <td class="size" title="2512902">2.4 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./arduino-ide">arduino-ide</a>
+          </td>
+          <td class="size" title="210156">205.23 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./archipel">archipel</a>
+          </td>
+          <td class="size" title="19750">19.29 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./arcdlp">arcdlp</a>
+          </td>
+          <td class="size" title="570754">557.38 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./arcade-manager">arcade-manager</a>
+          </td>
+          <td class="size" title="390776">381.62 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./aprsmap">aprsmap</a>
+          </td>
+          <td class="size" title="1140852">1.09 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./appmanager">appmanager</a>
+          </td>
+          <td class="size" title="645792">630.66 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./app-outlet">app-outlet</a>
+          </td>
+          <td class="size" title="281044">274.46 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./app-hub">app-hub</a>
+          </td>
+          <td class="size" title="9930">9.7 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./apk-editor-studio">apk-editor-studio</a>
+          </td>
+          <td class="size" title="52900">51.66 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./apidog">apidog</a>
+          </td>
+          <td class="size" title="403946">394.48 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./anydesk">anydesk</a>
+          </td>
+          <td class="size" title="356760">348.4 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./antares">antares</a>
+          </td>
+          <td class="size" title="299366">292.35 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ant-downloader">ant-downloader</a>
+          </td>
+          <td class="size" title="8334">8.14 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./another-redis-desktop-manager">another-redis-desktop-manager</a>
+          </td>
+          <td class="size" title="192350">187.84 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ankama-launcher">ankama-launcher</a>
+          </td>
+          <td class="size" title="299860">292.83 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./android-studio">android-studio</a>
+          </td>
+          <td class="size" title="123562">120.67 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./amazingmarvin">amazingmarvin</a>
+          </td>
+          <td class="size" title="37054">36.19 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./amarok">amarok</a>
+          </td>
+          <td class="size" title="311164">303.87 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./akasha">akasha</a>
+          </td>
+          <td class="size" title="54156">52.89 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./aisleriot">aisleriot</a>
+          </td>
+          <td class="size" title="343964">335.9 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ai-toolbox">ai-toolbox</a>
+          </td>
+          <td class="size" title="494860">483.26 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ai-review">ai-review</a>
+          </td>
+          <td class="size" title="639208">624.23 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ai-dock">ai-dock</a>
+          </td>
+          <td class="size" title="286612">279.89 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ai-check-app">ai-check-app</a>
+          </td>
+          <td class="size" title="84954">82.96 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ahk_x11">ahk_x11</a>
+          </td>
+          <td class="size" title="12148">11.86 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agentrq">agentrq</a>
+          </td>
+          <td class="size" title="12762">12.46 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agentreplay">agentreplay</a>
+          </td>
+          <td class="size" title="39090">38.17 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agentpet">agentpet</a>
+          </td>
+          <td class="size" title="93104">90.92 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agentop">agentop</a>
+          </td>
+          <td class="size" title="499876">488.16 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agento">agento</a>
+          </td>
+          <td class="size" title="134390">131.24 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agentkib">agentkib</a>
+          </td>
+          <td class="size" title="110616">108.02 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agenthub">agenthub</a>
+          </td>
+          <td class="size" title="142550">139.21 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agentglass">agentglass</a>
+          </td>
+          <td class="size" title="22970">22.43 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agentflow">agentflow</a>
+          </td>
+          <td class="size" title="62828">61.36 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agentdex">agentdex</a>
+          </td>
+          <td class="size" title="109718">107.15 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agentbox">agentbox</a>
+          </td>
+          <td class="size" title="55548">54.25 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-switchboard">agent-switchboard</a>
+          </td>
+          <td class="size" title="27380">26.74 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-smith-reloaded">agent-smith-reloaded</a>
+          </td>
+          <td class="size" title="962272">939.72 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-smith">agent-smith</a>
+          </td>
+          <td class="size" title="391300">382.13 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-skills">agent-skills</a>
+          </td>
+          <td class="size" title="520930">508.72 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-pulse">agent-pulse</a>
+          </td>
+          <td class="size" title="28732">28.06 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-player">agent-player</a>
+          </td>
+          <td class="size" title="165702">161.82 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-os">agent-os</a>
+          </td>
+          <td class="size" title="338122">330.2 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-orchestrator">agent-orchestrator</a>
+          </td>
+          <td class="size" title="34736">33.92 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-loom">agent-loom</a>
+          </td>
+          <td class="size" title="89076">86.99 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-lens">agent-lens</a>
+          </td>
+          <td class="size" title="22466">21.94 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-launcher">agent-launcher</a>
+          </td>
+          <td class="size" title="262306">256.16 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-desktop">agent-desktop</a>
+          </td>
+          <td class="size" title="449204">438.68 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-console">agent-console</a>
+          </td>
+          <td class="size" title="197502">192.87 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-companion">agent-companion</a>
+          </td>
+          <td class="size" title="15950">15.58 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-comm-hub">agent-comm-hub</a>
+          </td>
+          <td class="size" title="74118">72.38 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-campus">agent-campus</a>
+          </td>
+          <td class="size" title="101182">98.81 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-buddy">agent-buddy</a>
+          </td>
+          <td class="size" title="61096">59.66 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agent-arcade">agent-arcade</a>
+          </td>
+          <td class="size" title="18706">18.27 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agency-agents-app">agency-agents-app</a>
+          </td>
+          <td class="size" title="54970">53.68 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agency">agency</a>
+          </td>
+          <td class="size" title="125424">122.48 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ageha-editor">ageha-editor</a>
+          </td>
+          <td class="size" title="602412">588.29 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./agaric">agaric</a>
+          </td>
+          <td class="size" title="38238">37.34 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./ag-repatch">ag-repatch</a>
+          </td>
+          <td class="size" title="96070">93.82 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./afsplug">afsplug</a>
+          </td>
+          <td class="size" title="26960">26.33 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./affinity">affinity</a>
+          </td>
+          <td class="size" title="186324">181.96 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./affine">affine</a>
+          </td>
+          <td class="size" title="52140">50.92 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./aevum">aevum</a>
+          </td>
+          <td class="size" title="38274">37.38 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./aethersdr">aethersdr</a>
+          </td>
+          <td class="size" title="35676">34.84 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./aether">aether</a>
+          </td>
+          <td class="size" title="62882">61.41 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./aes-lacrima">aes-lacrima</a>
+          </td>
+          <td class="size" title="1170014">1.12 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./aeroftp">aeroftp</a>
+          </td>
+          <td class="size" title="272138">265.76 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./aegisub">aegisub</a>
+          </td>
+          <td class="size" title="20032">19.56 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./aegis-vault-v7">aegis-vault-v7</a>
+          </td>
+          <td class="size" title="260858">254.74 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./adventshow">adventshow</a>
+          </td>
+          <td class="size" title="15356">15 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./advanced-portchecker">advanced-portchecker</a>
+          </td>
+          <td class="size" title="28784">28.11 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./advanced-passgen">advanced-passgen</a>
+          </td>
+          <td class="size" title="29102">28.42 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./adosmissioncontrol">adosmissioncontrol</a>
+          </td>
+          <td class="size" title="1893398">1.81 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./adobe-flash-player">adobe-flash-player</a>
+          </td>
+          <td class="size" title="5544">5.41 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./adiman">adiman</a>
+          </td>
+          <td class="size" title="1684604">1.61 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./adeorq">adeorq</a>
+          </td>
+          <td class="size" title="439542">429.24 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./adelie">adelie</a>
+          </td>
+          <td class="size" title="284540">277.87 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./adbkit">adbkit</a>
+          </td>
+          <td class="size" title="282352">275.73 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./actone-screenplay">actone-screenplay</a>
+          </td>
+          <td class="size" title="411702">402.05 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./activitywatch">activitywatch</a>
+          </td>
+          <td class="size" title="345160">337.07 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./actiona">actiona</a>
+          </td>
+          <td class="size" title="59858">58.46 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./abracadabra">abracadabra</a>
+          </td>
+          <td class="size" title="358158">349.76 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./abiword">abiword</a>
+          </td>
+          <td class="size" title="14652">14.31 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./abaddon">abaddon</a>
+          </td>
+          <td class="size" title="1194536">1.14 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./aaaaxy">aaaaxy</a>
+          </td>
+          <td class="size" title="243598">237.89 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./9launcher">9launcher</a>
+          </td>
+          <td class="size" title="358178">349.78 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./8b">8b</a>
+          </td>
+          <td class="size" title="77516">75.7 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./86box">86box</a>
+          </td>
+          <td class="size" title="12918">12.62 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./6502-emulator">6502-emulator</a>
+          </td>
+          <td class="size" title="7704">7.52 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./4kwall">4kwall</a>
+          </td>
+          <td class="size" title="5645324">5.38 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./432hz-player">432hz-player</a>
+          </td>
+          <td class="size" title="54834">53.55 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./3mf-katalog-manager">3mf-katalog-manager</a>
+          </td>
+          <td class="size" title="341862">333.85 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./0xsynth">0xsynth</a>
+          </td>
+          <td class="size" title="122960">120.08 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./0xfx">0xfx</a>
+          </td>
+          <td class="size" title="532084">519.61 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./0x808">0x808</a>
+          </td>
+          <td class="size" title="265120">258.91 KB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./0ad-prerelease">0ad-prerelease</a>
+          </td>
+          <td class="size" title="3316784">3.16 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+
+        <tr>
+          <td class="name">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg">
+              <use href="#dir"/>
+            </svg>
+            <a href="./0ad">0ad</a>
+          </td>
+          <td class="size" title="1258556">1.2 MB</td>
+          <td class="mod-date">11/5/2026, 6:46:03 AM</td>
+        </tr>
+    </tbody>
+  </table>
+  
+</main>
+<footer><a href="https://kazam.pages.dev/donate.html">Donate</a><br>Repository <a href="https://github.com/kazam0180/linux-app-shots">kazam0180/linux-app-shots</a></footer>
+</body>
+</html>
