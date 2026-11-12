@@ -1,0 +1,858 @@
+{
+  "entries": {
+    "633e2212193006a6": {
+      "url": "https://raw.githubusercontent.com/bmsuseluda/emuze/refs/heads/main/screenshots/library.webp?raw=true",
+      "etag": "\"a3c974d57055c709ba2ecf79abad83b087243259ea8bb121274590a225372546\"",
+      "source_sha256": "fe5da793b28b48d03896e0f09ba73057e4efba1a6111a74113309478440459eb",
+      "avif_sha256": "d58246e6bf69f7d74defcc3fb76f437e2dc743dfef1f5fc9fb4a81e443c8b2d0",
+      "settings_rev": 1
+    },
+    "fd98dcc9b1ddf83c": {
+      "url": "https://raw.githubusercontent.com/jaisurya-dev-art/rigby2d/main/docs/screenshot.jpg",
+      "etag": "\"de66e8c9706baa52bc06bdd8b6b922d0b887f18c443d2ab38bf39f89bbf4cd6d\"",
+      "source_sha256": "506a2e898794c2e9e3320ea825063f468432b85266e8dd2ff11a31623a646ff0",
+      "avif_sha256": "476f62d9fbd02f3b483ea5e4c083490308fe8644f4581861aa007e5302af673d",
+      "settings_rev": 1
+    },
+    "1c15bf92e37b3cd7": {
+      "url": "https://waveflow.app/screenshots/desktop/home.webp",
+      "etag": "\"8c0646f93efab616bda03ba582fb883c\"",
+      "source_sha256": "cc22287d3fbf23b6b2a34868bcf4eaefc79d10b797a45259cbcb2eb1776d22f9",
+      "avif_sha256": "7c96a9e4e4c903867b961ef2d8acc53583446f826af3b506826c26dcbed1b93f",
+      "settings_rev": 1
+    },
+    "e82711cc9a63bc24": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/flashrom/4.webp",
+      "etag": "\"be375640fc07e2a572cfdb6a49b8609c4f7685b0f827320b074b738e4baf0b29\"",
+      "source_sha256": "babf1c1fa70654fc8eb7d48c82a4727e1a8bddd83e4592d5bcc3cee1963ae95a",
+      "avif_sha256": "86bc0c5c0283449a3ff0757a75e0bb5e5b17be97e1aa226403d75318f1b73e33",
+      "settings_rev": 1
+    },
+    "07d2336796d789cc": {
+      "url": "https://bibletime.info/screenshots/BibleTime-Main-Screen.png",
+      "etag": "\"699def8a-7bc8a\"",
+      "source_sha256": "7783eb4599bae21f49dfe90cf80757f842444f7b1f8fa6e4e613fcb58b034d37",
+      "avif_sha256": "4d1078d8b6858456e20e4a59a15d9f7cf9ea8b3289f0cb8f1d29e7be8b24e6ef",
+      "settings_rev": 1
+    },
+    "6276f3717239d064": {
+      "url": "https://github.com/Johnbatey/bible-song-pro-studio/raw/main/assets/screenshots/console-shot.png",
+      "etag": "\"0e43585c931cc7262666c08ccd8043b8b8f80ee46667886e0eecf480774f125a\"",
+      "source_sha256": "3dbae638e946857e8f1111f212cf4cab5881ec1992eae28bd53f6abfc4b61c25",
+      "avif_sha256": "0daed74d565382c33eeef3a553ed4b13c557ee702f73c3d31fbd710c446fb2d7",
+      "settings_rev": 1
+    },
+    "a9ce8ed2ddbfe8bc": {
+      "url": "https://raw.githubusercontent.com/RafaelGoulartB/Heronite/main/assets/screenshots/command-palette.webp",
+      "etag": "\"0b80327d5f863e15f2ddecd904f2a813dcd94f4af05ee5ec1d272cc65c242201\"",
+      "source_sha256": "4c3b514035bb172b44553844f1365ff43fef01a91033b53b3a6a8aaeb7c77fb9",
+      "avif_sha256": "59371a725b474b4813a15609e6733f092a0c702b50ff9f1a904ec5deb4887648",
+      "settings_rev": 1
+    },
+    "04ae281e038de3a1": {
+      "url": "https://media.pinslip.app/03-three-views-tabs.webp",
+      "etag": "\"fdce4950b04d0ad2598d2be3dc3653c2\"",
+      "source_sha256": "ec39ca423e18375206ed29c098cdf806421c5551f83238cf9e30cb84f76a9dc8",
+      "avif_sha256": "ba0a7a1cf18eac7c4cc54c3fdbd7ae328f148f57fcc3fc5e31fe69bdb6e446f8",
+      "settings_rev": 1
+    },
+    "6d42af8b63102d4c": {
+      "url": "https://raw.githubusercontent.com/CubicLauncherDevs/CubicLauncher/develop/.github/screenshots/crear-instancia.png",
+      "etag": "\"bce2483e9d5e36972f761b1290aa5bb3813f074629c700c84f3a41f04f7cbca5\"",
+      "source_sha256": "a924f3a66f836203a6b03f1fd56d3f60f32f3ebfe87e42994d42606046939329",
+      "avif_sha256": "d45503a926cb0991d63296766d1598164f91623bf3773db119dbada9567f7086",
+      "settings_rev": 1
+    },
+    "69dc16702e0e5766": {
+      "url": "https://raw.githubusercontent.com/klNuno/accshift/main/.github/assets/demo-switch.webp",
+      "etag": "\"5e989e86d12488fe99aec1e61bc0f55d561953b679ce00e0df49bdd4a8576e3b\"",
+      "source_sha256": "ee02832ced4e9ba9d6a41434b28fa48efb5bd6c8cddbe6dffee9ac578e54dc81",
+      "avif_sha256": "1882759b4ee881a00dad4c0870a00742d3c58b3f5de68bcbe9195915693c308c",
+      "settings_rev": 1
+    },
+    "d0b611dc06c90975": {
+      "url": "https://raw.githubusercontent.com/iongion/container-desktop/main/website-src/static/img/docker/ConnectionManager.png",
+      "etag": "\"8d310877b7015e757357529f2dc2d1475c03e770782fa5ccdda99ea35d566ef4\"",
+      "source_sha256": "9b3dc7bcc118b093842af2020a4d6192b7fe71587f5f264847da6803bdb2f951",
+      "avif_sha256": "0dd707e371b892393ea37e7f530285e6653f9ad3f8408e489d25230132dcd167",
+      "settings_rev": 1
+    },
+    "27c18dbeede193d0": {
+      "url": "https://raw.githubusercontent.com/RafaelGoulartB/Heronite/main/assets/screenshots/game-settings-proton.webp",
+      "etag": "\"fa7d4f7e1a4250580abcc840ef26f868e64a27c20ff02c72312983e13b9a0437\"",
+      "source_sha256": "2204ffb87f28a180904fced166c49b5070e238958e6f57b3cf5fe803e8818d4f",
+      "avif_sha256": "403a08a1e588265eb84bfd99a8e58b7cd89bdfafd29a4c21a8477fbcb1d90984",
+      "settings_rev": 1
+    },
+    "1fc812aa1c2de4b5": {
+      "url": "https://i.ibb.co/Pv8XJRM9/vn3.webp",
+      "etag": null,
+      "source_sha256": "bb23425ddb1a08ca100099042dc57fe07a48ae728876208482a54145eeadc2a9",
+      "avif_sha256": "31808cdf52af921c0d50f7ecbc5e5226b7a5fb27ae29116b94866cd8fb41680c",
+      "settings_rev": 1
+    },
+    "654f6e7827998315": {
+      "url": "https://raw.githubusercontent.com/OpenTubeX/opentubex.github.io/master/src/assets/screenshots/opentubex-3-dark.webp",
+      "etag": "\"933bc80e371b043034da0fe1effc2fe09adc316d4c7944649e47f764542297e4\"",
+      "source_sha256": "fe4096b71f3007f3b5ffddcc75b2c1dfdbe6e2150ae6b5116d3ebb4bcd7074d1",
+      "avif_sha256": "d1667c6a86f10d5eb9902bacb8912eff2e66cc78b8826b987e8ca3c2cf37c478",
+      "settings_rev": 1
+    },
+    "df89e8540697f86b": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/flashrom/1.webp",
+      "etag": "\"792d9302d145222ebdaec2f1860654f00782e023317fe0e01a20236231f1e812\"",
+      "source_sha256": "6b9619d7aaaf5e0478ab74674f6645422bf8b5026bd930318f5e1cf009ece2cf",
+      "avif_sha256": "0aa4ef963da0f1652b0e5250b45fe5c6655080141671841572d99fe395b69a6f",
+      "settings_rev": 1
+    },
+    "e63483920a7f6426": {
+      "url": "https://raw.githubusercontent.com/CubicLauncherDevs/CubicLauncher/develop/.github/screenshots/perfil-cuentas.png",
+      "etag": "\"b7f1912320f411ac77d1f096ec41c49c364bd56535fb69768661ed5d547b8318\"",
+      "source_sha256": "3efbce1461f011278b2b5bd7dab9b53c411c7ede621a6340c91cd67eaad289c3",
+      "avif_sha256": "26ab954791bc98333215f61ebdeaf9e15282b3ad5ff6d0dd88778af59cb2548d",
+      "settings_rev": 1
+    },
+    "f1f2bdd9b5094632": {
+      "url": "https://raw.githubusercontent.com/RafaelGoulartB/Heronite/main/assets/screenshots/console-home.webp",
+      "etag": "\"6e5a2ee00b98e7bbcf4f4fbaf6324901f3cee3ad176552f104f588823f6ed4c3\"",
+      "source_sha256": "4a0757a4e3766987e84ffc68cbfbc240deaf5fec0c948417d0554d2e766e8d38",
+      "avif_sha256": "81c96f001fd941a20e964de2707eca90e43cc2c8f152b2b3ec42281e5b7d28dd",
+      "settings_rev": 1
+    },
+    "7bbc0d87936eeae5": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/imsprog/2.webp",
+      "etag": "\"1fae9aa75341c19619386976764e4f645424de644a0f7d3116ac131efbf9f084\"",
+      "source_sha256": "aac2624ff5a17e6d9ce24fbe0eda6d12fa6af4d54c2b4562f2d22404199f0197",
+      "avif_sha256": "c3e92e8f23ba073cd97f6ce7a1fef6ebf38ed93ca21b48aa15c80ccad63c1da0",
+      "settings_rev": 1
+    },
+    "ba621b9e8dbd022a": {
+      "url": "https://raw.githubusercontent.com/psygreg/linuxtoys/master/src/screenshot-light.webp",
+      "etag": "\"4d970838d0a3ef8e0de6eb462cf121829c3d6c1bde6975abc54ff29484949bf7\"",
+      "source_sha256": "0334b072822067cc02288227bb80026febdeff92a219cb08feb8c6aca3f6769c",
+      "avif_sha256": "2c0db2938e1aca27fc3f4c390d876263c0fde6c4c6ca1825664a3438721dd1bc",
+      "settings_rev": 1
+    },
+    "b38d5c4f033c04f3": {
+      "url": "https://raw.githubusercontent.com/vikdevelop/SaveDesktop/main/data/screenshots/sync_page.png",
+      "etag": "\"743d86297f6e992e9eb0d42a3a693604fb77cd628769a7cacff32805f1222af6\"",
+      "source_sha256": "93ea2f09c4c4439d4ad8afec817f09e8695bc2c4256ee82c949523f56c139808",
+      "avif_sha256": "82d92fca03e40238c14d9e441ef1223ea4ea9fe18e5eb64f5a7e1a8d642a33f2",
+      "settings_rev": 1
+    },
+    "10db29dc99e3d88f": {
+      "url": "https://raw.githubusercontent.com/CubicLauncherDevs/CubicLauncher/develop/.github/screenshots/mods-instalados.png",
+      "etag": "\"a67d5f40e00095643a9bbe013720a5987246e7302ca502b520a1f0aec1c84eea\"",
+      "source_sha256": "3e099d03d46be1d0daf4167b67eb55cc04b86b0f57a180d0ebd6240bca6f3b02",
+      "avif_sha256": "61d4b84fd14a492cb2a9536efe9d393bea25dd26fabcc5b0c748318aad1879cc",
+      "settings_rev": 1
+    },
+    "abe9dd7abafe3d08": {
+      "url": "https://raw.githubusercontent.com/iongion/container-desktop/main/website-src/static/img/unified/001-Dashboard.png",
+      "etag": "\"acdd0c7143cecb17d1adc407fd74533b623f0b28f89f7023af62553a463c1755\"",
+      "source_sha256": "4565281e02cac4d935bcdb679e53a7cc2cebc346cffcf4af7d3dc6749c1e6353",
+      "avif_sha256": "a2de2107783f31d66de60ede7795934a9510a26418fb6b86f2a9fe9fee00718a",
+      "settings_rev": 1
+    },
+    "644b1db430d7ab9e": {
+      "url": "https://waveflow.app/screenshots/desktop/tag-workshop.webp",
+      "etag": "\"ace6efd15fe8a1ff70e917687d4479e8\"",
+      "source_sha256": "06b05c572aab49bcd31b1f40c851e50b0cf1d9c57bc9394b86e2042b1dc4ef36",
+      "avif_sha256": "a4df1bc3abc65beaf50a65c094432cf0bc697fda879b49ccfaa27f363c0289d1",
+      "settings_rev": 1
+    },
+    "2234520281d42226": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/warpinator/3.webp",
+      "etag": "\"048ac49ecec4abd25f54b582db45dceaa52eeeb9f85289298bfabc654acf5974\"",
+      "source_sha256": "c3695e79bd5f8c57153b507191b8591f333853500bf017611442586ce267247f",
+      "avif_sha256": "aad56c6d6857474f6790a3e1e410b3f4fe92dc95c5c5523d6df8e156e2c7fd49",
+      "settings_rev": 1
+    },
+    "9d301306df21222c": {
+      "url": "https://media.pinslip.app/07-ai-write-daily-report-workflow.webp",
+      "etag": "\"5b350cecfd4f93f733e91d47fd419626\"",
+      "source_sha256": "f0afe7019a345a8e3e0ee6fb87317e23cad149f9c4a9dd565789a270d20ec587",
+      "avif_sha256": "ab6cc7342a023a2946967f5795d31e8c716abff579f6ba01b0b9e3e4ebd392bc",
+      "settings_rev": 1
+    },
+    "edc90146d491e0bc": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/xreader/1.webp",
+      "etag": "\"13dbd6c5a4a0f307857faa39b32242b067ee7efe005985aeed1a3c4878f29232\"",
+      "source_sha256": "51a3492c92e62a118749b47757921fd7bf2d03e2192480d1649a898b375fcd44",
+      "avif_sha256": "32c4177a28a57de4531ba13826563ff9c81513cc5dc0973e5dab033fc80fa525",
+      "settings_rev": 1
+    },
+    "0ede546ce9718f7d": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/flashrom/3.webp",
+      "etag": "\"c5bf1498225aafe55b91fb14c54e1109ce0149e862224f669ad7157ac0c92425\"",
+      "source_sha256": "aa111aa18481b69d0bb981f071d704c44544f557981073539b8d6d753886f99e",
+      "avif_sha256": "0ba5c209546b34c114b72cdb5256c361395bd080ccc759e84a40ccb4661c9691",
+      "settings_rev": 1
+    },
+    "bb55072bee36582d": {
+      "url": "https://raw.githubusercontent.com/popovpsk/pawse/main/.docs/screenshots/album.webp",
+      "etag": "\"08f8a622f73507012912f22ddd5b069760d3962344d5967a3bdf301f63a11804\"",
+      "source_sha256": "f4fb73e4a9403d61a08c5308bbc66e13cd7d673e6325cbe53b5507a3cca48616",
+      "avif_sha256": "7b1887ea3b55f2ad4a7fde4d3bac70708e3284b91a97c6a7bf6f068c20511114",
+      "settings_rev": 1
+    },
+    "9bca103357d09034": {
+      "url": "https://raw.githubusercontent.com/kurobayomi/kurobayomi/main/docs/images/listing/07-source-titles.webp",
+      "etag": "\"2359504237ce2b11fe9c633116825ac7ee9c0357329c48485562e145e8273059\"",
+      "source_sha256": "7075b010cddd293c58345309b8ace26261ddb8f004c940114bc3b3b3a8d08103",
+      "avif_sha256": "fc78ce6b4f73baeea1d6c7a36c2d792b3d1cf3951a244a59290e9cedcc00fcc4",
+      "settings_rev": 1
+    },
+    "c9ac4f25dca95235": {
+      "url": "https://raw.githubusercontent.com/Pratyay360/drawx/refs/heads/main/public/image1.webp",
+      "etag": "\"35edc4615cbd3f61f3a737031e95c61a706e5ce4fd353033671faf7546656fdb\"",
+      "source_sha256": "cf5e10cd167a813126bf1e09ee8d79e3b8b9503357970411e2f7cc73c73233b2",
+      "avif_sha256": "200f9a5fe254961ac67e3ee3c49f33cace3e20f510ee286c4bf17b62f3e7b115",
+      "settings_rev": 1
+    },
+    "e3a5ada83720eb80": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/xreader/2.webp",
+      "etag": "\"8e04417a521c6455df68d7a987678d3c0eb798edf0f0ce6cb7520714e994d2bc\"",
+      "source_sha256": "a574c067c001701d35bdbf234fcccf6a3e44b937e6bb5c727bd62607216e621f",
+      "avif_sha256": "ea6f42c30bcb4e3a90941beda17d3233d50719e842b0da85bc5bc6b7b8511b1c",
+      "settings_rev": 1
+    },
+    "7b3fc7bf0f856d9e": {
+      "url": "https://raw.githubusercontent.com/CubicLauncherDevs/CubicLauncher/develop/.github/screenshots/instancia.png",
+      "etag": "\"7fe49172d61a3dee370f861514235e4d95cdc54084219433631a77802f826a48\"",
+      "source_sha256": "1ce025ce6dcd4031d0f435d45a7349678991e6c94581188371718ebfd50b16d9",
+      "avif_sha256": "5bc5b99db76bac912ce45b37a2b6e54a319d79ce9d25709db395ca0b8bdfc39d",
+      "settings_rev": 1
+    },
+    "7b61b4a1bf76e04f": {
+      "url": "https://raw.githubusercontent.com/basharovV/musicat/main/docs/musicat-aug-2024-promo.webp",
+      "etag": "\"37b8357568587750a4b1f02588051d865f6f5ed1b403afd4845b7ab20a4fc095\"",
+      "source_sha256": "353fcef84d7fe5197bb6f48c36b6d040ea53b4165e53ca6a9bc041d4064394c2",
+      "avif_sha256": "fad9bc1e6c06dbe7ddb123037fccce2ecf7d21a8ed7d57afe7b276168ba384a0",
+      "settings_rev": 1
+    },
+    "38d96447f88c3c74": {
+      "url": "https://xiphos.org/media/manual/en/figures/interface_parallel.png",
+      "etag": "\"6a99fd88-b186\"",
+      "source_sha256": "c72dd3ebeeee2b78db30e1b0c07a0907491bfcd1ace3ab3700d3c55dbe9aa524",
+      "avif_sha256": "f7d0d83437a79a6ba2b9a975c8a1d0fa450d4e31cb5f27bb6dd2c0d5b2db9458",
+      "settings_rev": 1
+    },
+    "15d9d1daa84c183b": {
+      "url": "https://raw.githubusercontent.com/petertzy/markdown-reader/refs/heads/main/docs/markdown-reader.webp",
+      "etag": "\"a7767f9dfe3fa2b8cd9bf79700da546cd9fb4c25ad9008cf54c4f11de5f6b2f5\"",
+      "source_sha256": "c27d0cb4f0c4506700a60b107db057d3d49f79fb49b036e3e6a5940ff80eee40",
+      "avif_sha256": "59b0d6f7a014cae55280b3435e444c090ddfcf0c9b0e803aafdfe387d8d67559",
+      "settings_rev": 1
+    },
+    "3f2d63301a7c8450": {
+      "url": "https://raw.githubusercontent.com/RafaelGoulartB/Heronite/main/assets/screenshots/console-game.webp",
+      "etag": "\"b95c4161ad250d5ab976e6acc1c718ce3aa12622395e40955bf66577db66bea3\"",
+      "source_sha256": "f32d362a6ab1ff7211790c2022eafaf634bd5da58c09fc47098ef2ef46da9de3",
+      "avif_sha256": "796801cd19fe6d6c7199484fc6e4bcb2dd384d82f2a9dc891aa4e1912823eada",
+      "settings_rev": 1
+    },
+    "1160927e872e0f5e": {
+      "url": "https://raw.githubusercontent.com/RafaelGoulartB/Heronite/main/assets/screenshots/console-settings.webp",
+      "etag": "\"4461396c12a6963140a5f75b28d8d2af0c6fad944a017530076cd9dd94d01efb\"",
+      "source_sha256": "d95b72f3e393288ff5546ccf6cd772bebe3abac3c2c20ba7861f445caad4bfe1",
+      "avif_sha256": "f82a51907880443dab1d61d7a6f275b8769e94a142154be5c5040073477e19c9",
+      "settings_rev": 1
+    },
+    "c8a048c0b6c8cb5b": {
+      "url": "https://raw.githubusercontent.com/vikdevelop/SaveDesktop/main/data/screenshots/import_page.png",
+      "etag": "\"ae6e7ec460b9021c5d4e95d72bd7060ef67699709744ee01f2bfb5ec8014a70b\"",
+      "source_sha256": "4f1994a0beacc3bd0f15e2003601b11bc0b9b1615823290457b2070e700a88df",
+      "avif_sha256": "81887707be2777414257e5319ebe0b8609f5017b796e0ff9c7941fdccb03d76d",
+      "settings_rev": 1
+    },
+    "9c846123c34b8b86": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/warpinator/6.webp",
+      "etag": "\"62e9992d2215e44b9f8b1a00e288d2702adf7440f74686b7f1753cc6d8d91067\"",
+      "source_sha256": "72b8fdf2e7a478272a40182c714496743f20a5bced0ea35cf3ce3fe4f5cc33f9",
+      "avif_sha256": "6c5ed2be50eef2def511c58454f1b5d529b3daaa28961aef9f483e1fd2a2ba84",
+      "settings_rev": 1
+    },
+    "8ae377a25c7a0ac7": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/imsprog/3.webp",
+      "etag": "\"bc973a4256e2889ee113a4f4089401ce4cd00853cc7298df164f8546a97083ef\"",
+      "source_sha256": "ad8afd5d81f3a5fbf1f08d522c1da2126979a614d29940b9f1f522fb5f6330dd",
+      "avif_sha256": "7712e9cefe08f53bc9a250126549a448b4e376651903ea44a138a02844630b2a",
+      "settings_rev": 1
+    },
+    "a98225e1986fe5b2": {
+      "url": "https://raw.githubusercontent.com/hotlittlewhitedog/BibleMultiTheLife-AppImage/refs/heads/main/screenshots/screen01.webp",
+      "etag": "\"3715844fd2711c932c1f6174fb65aceb68d3ae2b3f5deb66d7cff2ac3122d1bf\"",
+      "source_sha256": "884cc1b57c668cd5639e2467c0d0420b5a392b7deafb3b98451695f2c99b61c0",
+      "avif_sha256": "c9ca3753a86861373b01ab5648040a8f882e6d3b5f4ca51706fdd7e4c88341c4",
+      "settings_rev": 1
+    },
+    "b30031f17aefe7db": {
+      "url": "https://raw.githubusercontent.com/jaisurya-dev-art/rigby2d/main/docs/images/scene-editor.jpg",
+      "etag": "\"a856e7051b6b8046e31c93b09884dbdf0bdf04a1b45e9ba33f5afc016baf11a6\"",
+      "source_sha256": "614efa7ea448e222dc92b62907a503cb559a8844abd674be2d12a9eb280a7356",
+      "avif_sha256": "fa797ad7f1c477422e2a01bba76a2ee3d24efaf0147c2193b1901268117fad66",
+      "settings_rev": 1
+    },
+    "632432247f0f21f7": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/xreader/3.webp",
+      "etag": "\"99aee842b33b79c06d5f1591e5e4b02cf3968407c59b3451e8d4d968a3d1cf40\"",
+      "source_sha256": "261ba25cb70ce5e20f9fb6459286c6a91151ffeb88e76eb8d53c13ea3bfb98b1",
+      "avif_sha256": "22f0fecccdeefbc66a54d499de0d9875f5a697ed0c5822adb5b3d82b331c3308",
+      "settings_rev": 1
+    },
+    "34b7750647f56dd2": {
+      "url": "https://raw.githubusercontent.com/deta/surf/main/docs/assets/split-note.webp",
+      "etag": "\"d7a100e5a43fec69a58e4b7cdbb62009e2faff4d9a497a9e7ebb8c240249975c\"",
+      "source_sha256": "3fc1a9d0c34878c66afcf9b81ced382ffea6c16e97767d7667cba622d6cd53c9",
+      "avif_sha256": "9aa7c5684a7278564a8a14d87263a00b9ac32bcde80944a297ce6eb476e58540",
+      "settings_rev": 1
+    },
+    "162d7982a7b8bc0e": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/flashrom/2.webp",
+      "etag": "\"3c7bf9fdc3a9f241faa316f3ff0679f6618ee822a79edb76c01ac3643225ba63\"",
+      "source_sha256": "35e3683f338df7201cac49b0c0326acef1548b058428cc51b32191172e867a42",
+      "avif_sha256": "c4ab8504e6b7f694def57ab1255a788a165830d82b7999cb93097e0f3c2fb8c5",
+      "settings_rev": 1
+    },
+    "5de9ab743ef1e0f6": {
+      "url": "https://citadel.page/screenshot-light-1200.webp",
+      "etag": "\"ccf1c203182d45f3fb66df27a03adb9a\"",
+      "source_sha256": "d054f8e4b058256b9bfcc01c7fbddd437a993e92417e9bfc010d68bf7c4c5c2d",
+      "avif_sha256": "9d70c1dcca96507e1e35525cff59773248fa1f0e45741eb747cfd2c04cdfa1a1",
+      "settings_rev": 1
+    },
+    "fc3fe1635eec8824": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/imsprog/4.webp",
+      "etag": "\"96ac56bbee21bab326914482348a86b7d951bb8271a5bed5c95765323569c542\"",
+      "source_sha256": "c613004517039d5e99fa84dbcd7dd64b3447b66c857860299515e4978ec98aa5",
+      "avif_sha256": "55cdd9b07f56bfea4c0af83836494168b38f0fe28e9696c34911cde23fbc3373",
+      "settings_rev": 1
+    },
+    "520ea63430074f4a": {
+      "url": "https://raw.githubusercontent.com/wealthfolio/wealthfolio/main/apps/frontend/public/screenshot.webp",
+      "etag": "\"81a73126fd25a6bb55be64caa0d24fad0e2ace337a973c63fa91fffe24ccab3e\"",
+      "source_sha256": "e26b2de9626f70fa9c566a8a0d0008dd0f812e1b3b1278c3fa95ae8768b5f018",
+      "avif_sha256": "4d010c392774f8e4defaace32f1a3272c32640453c0765416cf4030b5ebfc4f0",
+      "settings_rev": 1
+    },
+    "9af71777a307db6e": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/imsprog/5.webp",
+      "etag": "\"99747cb8c92583b3257dbdb5e7ea07941d1becd16b0f9865b41d1a48ef07c19d\"",
+      "source_sha256": "b5de1b34800acc0186535f1ad521a5f4a24b82c0a7572d33448aea85d0217225",
+      "avif_sha256": "915cfdffd9cb2c38e1d4f0eb0be7178c3ab422775d8894abb5d31f77e271af82",
+      "settings_rev": 1
+    },
+    "d8000211fec20b53": {
+      "url": "https://raw.githubusercontent.com/CubicLauncherDevs/CubicLauncher/develop/.github/screenshots/descargar-versiones.png",
+      "etag": "\"b5bcbf3963b9e89e8d6efdfb7ac21ec2052ec0572011a659536599c8505ac3b9\"",
+      "source_sha256": "daa9f54000fb306162f8b91d5f4d294b28384c51b85004518c51c12f4ff0d362",
+      "avif_sha256": "d0f704f3b28f6e09139a9d151c7e2e31a52c2446aad9a0451ed6dec836e2718e",
+      "settings_rev": 1
+    },
+    "1bab716b04dd1893": {
+      "url": "https://github.com/Khyretos/3dco-plus/raw/main/images/texture_showcase.webp",
+      "etag": "\"6ba0129461324cb2af02d4c6a1cc622bdf98a74de2d9cdcb249002805b53ddc0\"",
+      "source_sha256": "b806dce993c2ae770aacbd04d1ad6673742f31590eee6a0006adcfa81336a14f",
+      "avif_sha256": "8642f1bc6b146c40b82a5428392c27a07374a407d3dd9be3985233caa59b3e49",
+      "settings_rev": 1
+    },
+    "69f9ff0a6a39abdb": {
+      "url": "https://raw.githubusercontent.com/popovpsk/pawse/main/.docs/screenshots/cover_view.webp",
+      "etag": "\"7ca2733b0e7ddc433b9cf07edc714c2c2c574862028952f20a1ac434892ea5dd\"",
+      "source_sha256": "c444c85b603d8c8ac64e08b60c85fab8dae2b1b3adedde8f87102c1d4e570319",
+      "avif_sha256": "ad341480bc6566ee2d145fc8349acf1d87288e7f9805ce91b7cdd5ae43852a6b",
+      "settings_rev": 1
+    },
+    "d134e971e3df382b": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/imsprog/1.webp",
+      "etag": "\"dc2a0133ccd62d72b95a6a41ea59ff1c60647691853d61222491fa189629ccdd\"",
+      "source_sha256": "5fd9d2032d186c4b1102622a308c3ffc4e8b2f9f5b8f541d3e8166e9756fc799",
+      "avif_sha256": "37422f1f94cb2f5c250b24a87a19ce81d4a74162917ff1f7fc188248e6b08cad",
+      "settings_rev": 1
+    },
+    "7506d656a14c75bf": {
+      "url": "https://www.pitivi.org/i/screenshots/2020.05.png",
+      "etag": "\"0fc0fe0967eda867ddc4d58269622ec075c786b01d35813fe9ca2d9d04ab12a6\"",
+      "source_sha256": "210e7bb9ad5c316e9b46540752006d09881dfc28dfb0f868269818ddc155d3df",
+      "avif_sha256": "6f6af7fda540f1c81795514defa7a2110324a4a696eca803a404d13c23f672fa",
+      "settings_rev": 1
+    },
+    "ba4758d175726d87": {
+      "url": "https://raw.githubusercontent.com/iongion/container-desktop/main/website-src/static/img/unified/003-ContainerActions.png",
+      "etag": "\"93eb1f9d0260a6bd2b30ab9846e426d0bedc3674f87e43ee2f22a8e2fc893998\"",
+      "source_sha256": "bd32ec97c0094f76e411e42b67e1f525ddfb7fa1350d6c52f78567b50131e12e",
+      "avif_sha256": "2c4b8011349bf91694a2ebb16fe5e6b4186b31cefc2cff7c2b5380567518b914",
+      "settings_rev": 1
+    },
+    "ef6958eacc524e08": {
+      "url": "https://bibletime.info/screenshots/BibleTime-Search-Screen.png",
+      "etag": "\"699def8a-38b7b\"",
+      "source_sha256": "38170fb10e8664a739aab533445b156209322da1517a64a5e58b74aab86387c0",
+      "avif_sha256": "83e2b390ae299bf43ec6c13dfb06ef24bc1a0382d83fa20a64464a0c978e9e47",
+      "settings_rev": 1
+    },
+    "c4d5580deee1227d": {
+      "url": "https://raw.githubusercontent.com/mfat/sshpilot/main/screenshots/main.png",
+      "etag": "\"66a459ec7d4ffa5358477134f9727645787557c1ec709942c2508ac31ef15c26\"",
+      "source_sha256": "19f5a554e0ec8a825d13aced05e7624b324e70e9a6dbba905d7bf772a87c0e53",
+      "avif_sha256": "1e9c0fffe0f4c0751c0b24ff1cc47a64df11a2b531d846d471f7592e3c0049b9",
+      "settings_rev": 1
+    },
+    "aef60bb4737ee907": {
+      "url": "https://raw.githubusercontent.com/RafaelGoulartB/Heronite/main/assets/screenshots/wine-manager-builds.webp",
+      "etag": "\"ab3d3862d4f76d01c569fc8ba7085cd17c2a80b1cc96e9fa2d6aede2d1dace98\"",
+      "source_sha256": "aee597315a640186f71ce96c47174d407116e1c5e620f7d84f1d74735cb12914",
+      "avif_sha256": "9c337ebceb8fa84f53d9745ff7ce5834a1f2532b6622a8232a4aa3a07444d613",
+      "settings_rev": 1
+    },
+    "18fece345c008c30": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/xed/1.webp",
+      "etag": "\"c28341d97346291427e5b4f9623444dee3b5c55312bd32861050f28b8dc0d232\"",
+      "source_sha256": "abf33117e154c5adab3ef11122960420fde8efac2ef6149ea6f0931e50240416",
+      "avif_sha256": "76b2c30446f641c30b289fdafa07f7777abf35c93a79a6b324728c9c50bf15ac",
+      "settings_rev": 1
+    },
+    "56da24fa1711938f": {
+      "url": "https://raw.githubusercontent.com/vikdevelop/SaveDesktop/main/data/screenshots/save_page.png",
+      "etag": "\"39a5e9faeef9e8950d91d69978aa17072719047afeed0b56d5adb0a575f532ed\"",
+      "source_sha256": "b933e4bdc31be63775c2891583f2a93cece2bf8d932d8ccfc0047ccecae43231",
+      "avif_sha256": "d966ac2f88eb066702df02ded3d69fca1d71ff219236fce542da03d9f69795b7",
+      "settings_rev": 1
+    },
+    "d1ba2ebe31f412c0": {
+      "url": "https://raw.githubusercontent.com/Ferase/SwampSwap/refs/heads/master/images/SwampSwap_Window_Screenshot_03.webp",
+      "etag": "\"315aeeebb69c3b211eac6d549d1d6372f7dbdb98fa663482ccbb20743c7d732d\"",
+      "source_sha256": "696f4248fc915e3f4dd5c30855d0a2362175117ca2d4140bb6e67b55315bc803",
+      "avif_sha256": "c48753dbb38513c5db1da77807bd520ac320dbdb9b4eec5b18314cf4487686ae",
+      "settings_rev": 1
+    },
+    "6031c6a1d9a08573": {
+      "url": "https://raw.githubusercontent.com/basharovV/musicat/main/docs/smart-query.webp",
+      "etag": "\"a5fa6bff250ce93ed548f368bef089d8f0a220433784ce234d4d354cc3d615bf\"",
+      "source_sha256": "12fb71eea7d9eaecc023777153297712efd124972f542be39c660879e9456ef5",
+      "avif_sha256": "bca15ab348f5e17c78a7c437bced44d0ba42c308b0fbda223653bfac502b9636",
+      "settings_rev": 1
+    },
+    "9afbfa4b63f59b0e": {
+      "url": "https://raw.githubusercontent.com/kurobayomi/kurobayomi/main/docs/images/listing/01-welcome.webp",
+      "etag": "\"2885ac780928d6cc0fafb4255371fb0ecb17635437c3feac042772c31e2931bf\"",
+      "source_sha256": "8def4593c5f690f1107e93320e39a4172f337b0838fa66dd6f94f207e60c9a1c",
+      "avif_sha256": "2d1b16bbff051b09700b1194dc4c1fb3a03540c60bfe135a2055c7f3ac8bac40",
+      "settings_rev": 1
+    },
+    "c11965aa4d9d7d73": {
+      "url": "https://media.pinslip.app/01-quick-capture-floating-window.webp",
+      "etag": "\"c3a567c2f32cdc404e12e58cea5dd766\"",
+      "source_sha256": "cc78f8e9a1b7fc05b06afe518c0f12c56d994970000fa2adc0450196120130fa",
+      "avif_sha256": "b1cf4df355fe601e5a93ba87b26287d44a2e26f02c8976ce986ecd649cccd004",
+      "settings_rev": 1
+    },
+    "98bdbba95a8d739f": {
+      "url": "https://raw.githubusercontent.com/OpenTubeX/opentubex.github.io/master/src/assets/screenshots/opentubex-1-dark.webp",
+      "etag": "\"3ba729e96639978192dd0d61462e6fc204eec7aa5e81c4f0f06ab29b735b1366\"",
+      "source_sha256": "06b855fac48691d60264a915f1e890fb8fb2051bc86d93a019887b7519c2c497",
+      "avif_sha256": "a315bc396945e8595a02233587e89f82d2f7385eaae4062b00dc753dfe958e1e",
+      "settings_rev": 1
+    },
+    "30442b201ddfc28d": {
+      "url": "https://raw.githubusercontent.com/CubicLauncherDevs/CubicLauncher/develop/.github/screenshots/explorar-contenido.png",
+      "etag": "\"efe06f8cf207fa576230723e173d8066bf52ae297d53c7904c3ab6b1766e08ee\"",
+      "source_sha256": "a2e6f2fec0d04f0456d7bd7fb797a4ec1828bb8aee0eb6bd6e0a99c26b420918",
+      "avif_sha256": "fd9173a916f082c3f459bfcd3925f80264ade77bb6876ff0afb2e2b831a60858",
+      "settings_rev": 1
+    },
+    "40a29dd5d73e5bcb": {
+      "url": "https://i.ibb.co/6cxVJy1H/vn.webp",
+      "etag": null,
+      "source_sha256": "4b89fc8ff34f3e5dd776c82288378de39e0140e4049a0cae11995eebaef7fdf6",
+      "avif_sha256": "2581ef779ea222be64e8d6269bf8873daf2d208e7d1f166d27e94e41d102ebff",
+      "settings_rev": 1
+    },
+    "920e690f0937c600": {
+      "url": "https://raw.githubusercontent.com/Kieirra/murmure/main/public/murmure-demo.webp",
+      "etag": "\"655744ea23f1d205fa37757de903cd20c3c5be6f0607a0cc716abdd1668bbd1d\"",
+      "source_sha256": "cdec50322aeab6a7f1371bcecaee75dd208c5e502a34baf6139c108b9001d848",
+      "avif_sha256": "b224e14e1265acfd4fc857634ae681c503d175e88b10e41c1727827e68021f31",
+      "settings_rev": 1
+    },
+    "b7fc23f770a2dd7e": {
+      "url": "https://raw.githubusercontent.com/basharovV/musicat/main/docs/albums.webp",
+      "etag": "\"b11544dd0abd9a521802fa851427d9e55fbaa4d63ec20bb80f7fde561c64aaf7\"",
+      "source_sha256": "4a216ab99e9c549819548c0d93336fb7708ad3e377bd346e6250196bfbedf84a",
+      "avif_sha256": "d802daf78256b4f5228eb1f28150c8dd8058e175db795f014d13bf643e580911",
+      "settings_rev": 1
+    },
+    "7d85cc5b30378593": {
+      "url": "https://github.com/Johnbatey/bible-song-pro-studio/raw/main/assets/screenshots/greek-hebrew-study.png",
+      "etag": "\"cc9c269812bc49658a2a8996403ae7ccdd5d9bec5984eddc739b877a7ec48754\"",
+      "source_sha256": "353f0607dd1f4173c9c6d1469c81bb57b295d9df7d7d1102610a2f34c509597d",
+      "avif_sha256": "21ec729358bbc827163f60792f255cc70d4a76a677efdc3bcd7d1db1148c9165",
+      "settings_rev": 1
+    },
+    "ba700f6b52f12ff1": {
+      "url": "https://raw.githubusercontent.com/klNuno/accshift/main/.github/assets/demo-themes.webp",
+      "etag": "\"71ceefa34ca0a455bc733c4a785f5a1f1562acf2bf9eb54137e7f5480717c503\"",
+      "source_sha256": "700658f715724c2f75e200091ec628f5b3fe3a9fcf0be4bcd3c563835f70b02d",
+      "avif_sha256": "c89334c0f9896d04665a79f84501ef738f2c90421566b4620594de4c3ac53f33",
+      "settings_rev": 1
+    },
+    "b794c31378497ec5": {
+      "url": "https://aisketch.wanrenhao.me/screenshot-zh.webp",
+      "etag": "\"aa93ef58b318a300883700350ac516cb\"",
+      "source_sha256": "ca41536ca7081af986e2975a432fc124403783e637b2e39eaec269f12104e64b",
+      "avif_sha256": "98ebc73c41fcbba88340dc322c1980ce1d8422c4d29331eefc3e38de0233621a",
+      "settings_rev": 1
+    },
+    "053c706708138a70": {
+      "url": "https://github.com/bmsuseluda/emuze/blob/main/screenshots/library_collapsed.webp?raw=true",
+      "etag": "\"35cf5cba042beb7833ac610685e96747caf25ded2768a273b40fe7ed77ddcf36\"",
+      "source_sha256": "c37cb73055bf830c5e17d491acf2bef71dff87703145e65b9b9c46d495c6c683",
+      "avif_sha256": "3a5996f373cc2834dfcd78cee889329f941a30d316d4462ba63f14db9f687a4b",
+      "settings_rev": 1
+    },
+    "346e810e798cff6d": {
+      "url": "https://raw.githubusercontent.com/iongion/container-desktop/main/website-src/static/img/unified/Build.png",
+      "etag": "\"6e3793895c0262fb233ba1152ee66936cce845bde7573d8571db389f99298de3\"",
+      "source_sha256": "41a994b65e0bdc315db2b5a57b4e75019f5f57abe6e835af4bcd0e927fee4fab",
+      "avif_sha256": "d8f8dddda563636e354e59b6e6eeaca7462c903f1a2e2aafe0ae8ab064120b05",
+      "settings_rev": 1
+    },
+    "4d3de518147b4c4b": {
+      "url": "https://raw.githubusercontent.com/jorio/OttoMatic/master/docs/screenshot.webp",
+      "etag": "\"c9a062abe4c2ed827ac9248064ff11845682ae10749eb8a0a03413d846f844bf\"",
+      "source_sha256": "6d6babae6ff8f08fcdd91604c45b47b6111a5c89c3588a42a63b8a39a1887217",
+      "avif_sha256": "db369af8656ea2acf90c8d3aae4d0e2e42f5e7730222669b41939408f218ce94",
+      "settings_rev": 1
+    },
+    "a34548f632c2df9f": {
+      "url": "https://openrhema.com/_next/static/media/dashboard-overview.0-rmlmi90dx6p.png",
+      "etag": "\"6a861edf-bff40\"",
+      "source_sha256": "31eb9211f5c1bf0d6707a0b10369451da6f9837fdea3ef28a0570b21e08b8e9c",
+      "avif_sha256": "99b5b1c72ba1f3d3584373c3940881f9e41e6fd2ea59c3ed3ec240410023cac0",
+      "settings_rev": 1
+    },
+    "4dadd9f6e2dd259f": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/xed/2.webp",
+      "etag": "\"4455ca22ff1a5bbfccdbcab9aeb5f23f2f0a3b91c2847b1ef654a320dc402e98\"",
+      "source_sha256": "ddf20a3f95ffbecadde6d48c1088e732bef6a46f9786ebbbd6d8be830cac1a88",
+      "avif_sha256": "8a57b05d826c8a41b1b76e9a77bf584fb4c02314e7d70d8f74f1925c05182c12",
+      "settings_rev": 1
+    },
+    "e69db224e3b237a0": {
+      "url": "https://waveflow.app/screenshots/desktop/skins-liquid.webp",
+      "etag": "\"b4436a7c677b678d0facfeaae2533bc4\"",
+      "source_sha256": "ec5c0e919ed83ba4ffbd3fabdc3d4d1bda62d6f9e1a96eddc376291cc295cf6c",
+      "avif_sha256": "cc5423cdc2e6cbe8209dd21ec8c6ed25645591b53edf60f7f09c54ad7ce8a5eb",
+      "settings_rev": 1
+    },
+    "ec1e199ed6999070": {
+      "url": "https://github.com/Onion99/Agro/raw/main/docs/screenshot/desktop_chat.webp",
+      "etag": "\"6148ae43c84efc5545596994e2d2aecff9abcfe7d2fbe9c0f45740c06e0a26df\"",
+      "source_sha256": "4fb90e46bf23522bd19d91c12e31ad2c13e050f681043193b8470d21871c4841",
+      "avif_sha256": "ebadf1dc1017aab20d213dd653c0f9b324014e75e544a03f5ea635a84812a484",
+      "settings_rev": 1
+    },
+    "56b52e7bea90ae62": {
+      "url": "https://aisketch.wanrenhao.me/screenshot-en.webp",
+      "etag": "\"b0660289a792e2f46716dda8acbcbf92\"",
+      "source_sha256": "0eea896947d0b900975ff80d5ea3e1ac0b5e0d9e1c5bc3deeffac6c3fce5f5c9",
+      "avif_sha256": "929d220f6238c9796a00cd7ef226f44d931b5b1ab86d765f9553b620cd44d24a",
+      "settings_rev": 1
+    },
+    "93bffb5a5c63c693": {
+      "url": "https://raw.githubusercontent.com/hotlittlewhitedog/BibleMultiTheSonOfMan-AppImage/refs/heads/main/screenshots/som11.webp",
+      "etag": "\"a3d2c420e2cc51ba55f5be0a8e8991f0ebc98c2e055615d357eca210841932e8\"",
+      "source_sha256": "96b9b87a03f8432c4adf80f02f362a005d9be9679338be53cfb4664e8fb10b74",
+      "avif_sha256": "59919435a4ce96b451e514945f63c21315553ea7c374e6b75d942a38c2132446",
+      "settings_rev": 1
+    },
+    "3469b2ea538818c2": {
+      "url": "https://raw.githubusercontent.com/Ferase/SwampSwap/refs/heads/master/images/SwampSwap_Window_Screenshot_01.webp",
+      "etag": "\"6550ff7fb3bdcf8a80c9c5381547ff197574903375ba0c34fe7be25a5c970d5e\"",
+      "source_sha256": "8de85151869cf228175d2226d714e2d27f9155eb3d417a616de20c9ab0a0bad8",
+      "avif_sha256": "74a49be73974f46ea3f6c3dc7ddc18e8b5d0150a464a55eb6d3013c2f28e525f",
+      "settings_rev": 1
+    },
+    "adb32718ed568e2a": {
+      "url": "https://raw.githubusercontent.com/mfat/sshpilot/main/screenshots/file-manager.webp",
+      "etag": "\"cc8e78c534f6c73f3d6ed26d803f1d1257c92f2ea845c1bb43705eba84df7ecf\"",
+      "source_sha256": "f2a1ae3ce6c0b41152b827ff409c3ff53a02525ae1383c34ca454e3bfebdae37",
+      "avif_sha256": "7678ee8b1227d04d7a95885a65fb616bc24d67d81641a7be0e4f168add690f5a",
+      "settings_rev": 1
+    },
+    "2a5cb73b5119d6f9": {
+      "url": "https://raw.githubusercontent.com/mfat/sshpilot/main/screenshots/dashboard.webp",
+      "etag": "\"8cb51de01ea5786def0523047c9d818c5ae10bf5c51d76d04cf96af36bc548c2\"",
+      "source_sha256": "afb0c960fe8359948d7991d2b3f163b61967d909870c91e1f0629340c00a08d7",
+      "avif_sha256": "ddd9b5eabd9565fd91b422a1dd19788a64d53fdfa5e8c7cae9a414a61f4b5b46",
+      "settings_rev": 1
+    },
+    "352bae5f24d90341": {
+      "url": "https://raw.githubusercontent.com/hotlittlewhitedog/BibleMultiTheSonOfMan-AppImage/refs/heads/main/screenshots/som12.webp",
+      "etag": "\"1b501ee62a1e64c143e3664aba1db2855a283318226cb33da797e2b3298a9480\"",
+      "source_sha256": "71c007333b1c2b6f43cada9bcebd148a6e1b3c295c993560b98a486b60b83bc3",
+      "avif_sha256": "512711a685c29de78515eda9a561e4f8b47c963c045e3658a932886ec8e28bdb",
+      "settings_rev": 1
+    },
+    "9cb06f5650b8bbf4": {
+      "url": "https://raw.githubusercontent.com/kurobayomi/kurobayomi/main/docs/images/listing/09-details.webp",
+      "etag": "\"b03978ceb5943e5851b434879f2350577c471fad8f89a22848dd079c73560e85\"",
+      "source_sha256": "93b5f7aaf265f1e8ca1691eb86b57239c5726b5f860f32ca5b4a8c75d82bcf24",
+      "avif_sha256": "8c689ac0ed5b08482b6797865a56fdd52cad38b34bf10da31575529bc9f70ce6",
+      "settings_rev": 1
+    },
+    "a910a354d5c4a245": {
+      "url": "https://raw.githubusercontent.com/basharovV/musicat/main/docs/track-info.webp",
+      "etag": "\"62aaaea48ed4894a6ccce8e83aa7894603752147a6a618c187c82970cf0f07ec\"",
+      "source_sha256": "46b8e030f03b42bd9dc87e596a8650537f7223bcbe09a120654332ba5d386b8e",
+      "avif_sha256": "e63669b67ab91882ea92b56499d60e2aac2cb93131142147141dce5baff2684e",
+      "settings_rev": 1
+    },
+    "718d39ab92c37c97": {
+      "url": "https://raw.githubusercontent.com/klNuno/accshift/main/.github/assets/demo-organize.webp",
+      "etag": "\"b5a3fab09889b6921a5bba6ff10c85c188e34feeceaa08457a6010c3e69dfd1d\"",
+      "source_sha256": "e97073ab309645f25bee6db23262999397a03cc5fb174fd4f09b77ecf1b9e83d",
+      "avif_sha256": "7f0304dad668ff56a60c6e90872d19cc1ec385c3bf34d49b7ddb8c1832959214",
+      "settings_rev": 1
+    },
+    "0a3acbf620315d43": {
+      "url": "https://raw.githubusercontent.com/CubicLauncherDevs/CubicLauncher/develop/.github/screenshots/ajustes.png",
+      "etag": "\"fbaa1337e0acd336e6c6b96ae202336bde24c69774013540733aebcb36abb285\"",
+      "source_sha256": "9918eebe7f6c7ca4c656ddcdacc7aa1c2c872001b319a1e001b1c0af04607553",
+      "avif_sha256": "a4a60d70185dfe2e6122405b52e8cac1cd1dbaa56a25d6041b1177314f1dd879",
+      "settings_rev": 1
+    },
+    "413d395b4bb1cbd1": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/warpinator/4.webp",
+      "etag": "\"28554cb25d2399976d9480a5dde1aa3e22d67f6e44f65f7b28f1376810ad3592\"",
+      "source_sha256": "4c1bfd5ed6bd7a956f8193bc7cbc8878e21f3f81b07a92e1b9a108031bcc0361",
+      "avif_sha256": "35f32b3859eb0559abca0bb30dfa17c7006e28080247660b8e7173c3e3e3b9a0",
+      "settings_rev": 1
+    },
+    "52809c0e06f2e6a5": {
+      "url": "https://raw.githubusercontent.com/RafaelGoulartB/Heronite/main/assets/screenshots/statistics.webp",
+      "etag": "\"393c337767cc051cb61aa124bfb11ef213012a51bebfabd5eb40f3d1259a18f5\"",
+      "source_sha256": "52e3ca5f4168c3fc16f34fc939d6f1ba58fc5f524269fc1d2d03c5a7c5f0ee09",
+      "avif_sha256": "cfe8844aafd2f8c1bfd78757bce6fa1a43bf080ab662e5c73f052e70a8d02c1d",
+      "settings_rev": 1
+    },
+    "d9e257a0124bb003": {
+      "url": "https://raw.githubusercontent.com/hotlittlewhitedog/BibleMultiTheLife-AppImage/refs/heads/main/screenshots/lin04.webp",
+      "etag": "\"5f0aa2235ee9055234d1fc9b6ad1595278c643543571d754d996b20eac6db976\"",
+      "source_sha256": "419a901b47eaf653bea67de36f492cf3037171763489cfc26d3f746b7892e0d6",
+      "avif_sha256": "b5b1bd15132774e50b1922a3a43cff3ad35072d9db2ad71a39326dd1c8a63c58",
+      "settings_rev": 1
+    },
+    "e827a0cf44789f10": {
+      "url": "https://raw.githubusercontent.com/jaisurya-dev-art/rigby2d/main/docs/images/autorig-result.jpg",
+      "etag": "\"56cf2a1d43941bb1d4fbbf0797f3b47271cbdd3e94659e87da1e33a11f1e0d2e\"",
+      "source_sha256": "74f8f8c06d7bc92a365d145f1c21b04c0a00a5507f3f91c543dea3a32f0a0436",
+      "avif_sha256": "a6c911aa16ba312be93e969e469d89bb7dd8be1160d7ebda134364bc1123fe0e",
+      "settings_rev": 1
+    },
+    "b0afb01e72266560": {
+      "url": "https://waveflow.app/screenshots/desktop/immersive-lyrics.webp",
+      "etag": "\"adbd519a4226b7a683e67f1bcb46af67\"",
+      "source_sha256": "fad05e0fefb93f7803ecc6a3f4b3e71e025ca48c97b8537eff04e420f5978b1f",
+      "avif_sha256": "a4128d97df3bb8632a52842901ab37e8b2a9becc6e858e331b8c82e41e7e924e",
+      "settings_rev": 1
+    },
+    "deb30daa85d19bb5": {
+      "url": "https://raw.githubusercontent.com/CubicLauncherDevs/CubicLauncher/develop/.github/screenshots/inicio.png",
+      "etag": "\"20d6d1eb39cbf2806c0d29a991274d6b5652c6fdfafff431f695b2152f612496\"",
+      "source_sha256": "21043060e053f4e9ede14c0bb307e811f838d4771c87feca4f4ebada0379c4c1",
+      "avif_sha256": "4055b9ca2430dd97edd401803c71907204cea3a7d00861d0ea054df3fd825289",
+      "settings_rev": 1
+    },
+    "bce772c21324828f": {
+      "url": "https://waveflow.app/screenshots/desktop/album.webp",
+      "etag": "\"ab61f900f2e74d7df9fc9e66ab8eaa91\"",
+      "source_sha256": "e56deeb5bfb90366a83713ed4182e2e44ce9fb67d8610951fcb1763ce4703911",
+      "avif_sha256": "bd652b79a95b189e7b8a16afa13991cbb98df9711df3efb5390289652cf51924",
+      "settings_rev": 1
+    },
+    "17bb3e3995e47887": {
+      "url": "https://raw.githubusercontent.com/melo-foundation/melo/main/.github/screenshots/row.webp",
+      "etag": "\"f83c3e1721529a8125ce0884ee0aeee49b8fefaf2f5e710fa0c5408cde060c68\"",
+      "source_sha256": "f424b50613bc74c15cb441af2eeec891f536ba4a096edb9655002ad4bd8b17cb",
+      "avif_sha256": "2047888f6ae0f7376d59a5629d5593c907be695e0245348490ed84d2df2e0fea",
+      "settings_rev": 1
+    },
+    "86480f0367ca26fa": {
+      "url": "https://raw.githubusercontent.com/OpenTubeX/opentubex.github.io/master/src/assets/screenshots/opentubex-2-dark.webp",
+      "etag": "\"690aa39fc7c96344fe72e25273a9e0782e7d44e1ab0ad072725c1a0ea88ce03b\"",
+      "source_sha256": "5b98966397fbc543fb2a535e42a427a347ba4e59e39bebb143e4a164d762b2a2",
+      "avif_sha256": "6a688aecac75a3c6b5aaa8413bbed0b669b5cdcbaa197f2a408202439a440387",
+      "settings_rev": 1
+    },
+    "a543dff8aff6f32f": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/xreader/4.webp",
+      "etag": "\"becd43aa0815cf23069c82cd914a3d5a1cea246cc3d0c1e955b56156333585f8\"",
+      "source_sha256": "38f061c78af86e54425bae72855b85669b4f427db718c328c279d833d2611022",
+      "avif_sha256": "9ced675d6ba1967cf6ff9d25e9ea9e7730042b5a09dfe53ebb78f6d5ed60301c",
+      "settings_rev": 1
+    },
+    "5398ae280a6bcd47": {
+      "url": "https://kate-editor.org/images/kate-window.webp",
+      "etag": null,
+      "source_sha256": "7f60a1401e8683a91501547bf1c4f7b8e261ec8a5b64e6cd0610e65a19e70650",
+      "avif_sha256": "ea31271e827ded09b3aa74660696cfa4482ea150a53d1867777c2fbe56b897df",
+      "settings_rev": 1
+    },
+    "e991dafc79887f13": {
+      "url": "https://raw.githubusercontent.com/iongion/container-desktop/main/website-src/static/img/unified/AIAssistant.png",
+      "etag": "\"a8e782f2a6edabf98ff170513df4b8cc6a1a893a7f508130ac8b72faff72dce9\"",
+      "source_sha256": "f8129d6f6c3b21be8a5ff895dcbc2071a81444a7a3884a51220279724e87baad",
+      "avif_sha256": "9010f64128c69d97a494461102e4476319feb5f2dc2e6758e192484287e30fd6",
+      "settings_rev": 1
+    },
+    "3786de4195594541": {
+      "url": "https://raw.githubusercontent.com/popovpsk/pawse/main/.docs/screenshots/remote-desktop.webp",
+      "etag": "\"7b26ddfe7bf3fbd6921d56f6356aa13491c3e1ab7bb03c4d63c8790bf1169900\"",
+      "source_sha256": "66913d7d37de5b345b3d091f297748884c2b38ae3994268c7c2e0d48fde047f5",
+      "avif_sha256": "24b800e403299e2cba9cf1dfb1fdaaaa424c4210b346f8392a11d51d18c290ff",
+      "settings_rev": 1
+    },
+    "095d06c46d34fa6d": {
+      "url": "https://raw.githubusercontent.com/RafaelGoulartB/Heronite/main/assets/screenshots/year-in-review.webp",
+      "etag": "\"06b5270755d51b86263091aa831913f3899bdcf1b529d6ab43dfa4a22738f577\"",
+      "source_sha256": "4d5ee1b6d72af03617d2976c2daf53ea445b53b6cda022bd7d10d4ab906e6bf0",
+      "avif_sha256": "802c68c39ac49a8d739a1174fb2bf6305a9a103dfcb277ea8fc18526a4b2a260",
+      "settings_rev": 1
+    },
+    "3ca1f6bdc890af7a": {
+      "url": "https://raw.githubusercontent.com/RetGal/Dayon/refs/heads/master/docs/dayon.screen.webp",
+      "etag": "\"64ba682e57c15638c60d31566babbcec2270dcd41c1014d14a0c4157da97fbd5\"",
+      "source_sha256": "19eab2b85b5118733cd7668c7862e82ed6d276e9e24debf9238b76360f443aa9",
+      "avif_sha256": "86fa6f2f5cb1c99e80a090179e57154728e1dbdd3a943013dfe101c9a1d64f9d",
+      "settings_rev": 1
+    },
+    "112c16aad069945d": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/warpinator/7.webp",
+      "etag": "\"7066b2bcbbd74b2b11f16fd5d95f96d7cd89736c22330607411948f3f7ee7093\"",
+      "source_sha256": "fa7908b42cd5d2f2f50ea3b828507fdfd757537b4020e96a2a8559f194edaca4",
+      "avif_sha256": "b54443442134293be4e11a72bfe8def01ce8d436e3232f48c824b40f88a6e9a0",
+      "settings_rev": 1
+    },
+    "c6a14c77355ce139": {
+      "url": "https://raw.githubusercontent.com/iongion/container-desktop/main/website-src/static/img/podman/Pods.png",
+      "etag": "\"4e53b149dc98d657686edf554c6ba2e88e8b835e40dc3a574030d651f7e0c163\"",
+      "source_sha256": "f3421f70851353c18d1ce4f662abd7506e47afe98610671ea04c501175887143",
+      "avif_sha256": "02413d91ea4be5474adc0603af4bf266ee929bb844774a9b03cc51b97ed3827d",
+      "settings_rev": 1
+    },
+    "cf68496ea3822103": {
+      "url": "https://raw.githubusercontent.com/deta/surf/main/docs/assets/another-split.webp",
+      "etag": "\"c89b48af5707d02901193fc8186bb852ebad59390aa9fcee618428359ce005fa\"",
+      "source_sha256": "85d98069a54c71fc422f7a911a161da31e0749a14b5829be754b5f94fe9b6c83",
+      "avif_sha256": "5fc677fa50d59128938de90de5c82428e5e38c957773da0a1d98f233711e0971",
+      "settings_rev": 1
+    },
+    "a1c298f00cc61004": {
+      "url": "https://github.com/Khyretos/3dco-plus/raw/main/images/linux.webp",
+      "etag": "\"c2bdc250058f64ae41b6114e21bd0da5b0e34f534a0a80a30898feea1350e681\"",
+      "source_sha256": "638da66185a286e45f282c6f1536b1ae00202d351fb573b66e9fd2d42498c172",
+      "avif_sha256": "ce1fa84b79dbee036c7c794429305c5005d0093d5e45c7a39adf03d9626e9430",
+      "settings_rev": 1
+    },
+    "fe6fac4035a418e9": {
+      "url": "https://raw.githubusercontent.com/popovpsk/pawse/main/.docs/screenshots/artists.webp",
+      "etag": "\"50b9b97db7c01fe3957ed513164f49ca2bb5061e81bf0617b76151740d2774e5\"",
+      "source_sha256": "5fd25be897f32ecbbb69c6baec85af476774b44aa7d2b8ae5c97622a0e25e975",
+      "avif_sha256": "80c68aa4fcfee5f30fc2ac53f98f3c4761101b297b4115f9e6c983ef0fb94501",
+      "settings_rev": 1
+    },
+    "86d3ceeafedfce7d": {
+      "url": "https://xiphos.org/media/manual/en/figures/interface_parallel-separate.png",
+      "etag": "\"6a99fd88-2365d\"",
+      "source_sha256": "ba21d22eaa6873f05cc87118d77651c2c89fd9af0270468ec2202ab7c09e71f0",
+      "avif_sha256": "a7f4e350862f4509ad372a317656e736ea3017638d789dffc6a8782a1d9eb35a",
+      "settings_rev": 1
+    },
+    "7f05238809d406df": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/warpinator/1.webp",
+      "etag": "\"a49b80341d085f48f4bd55535c0f240c896e7e4bf2ead8606613621a588806ec\"",
+      "source_sha256": "cd214bb00b7e78b9d5c07211f8139d8033135084756bfd2591dd72acb045180f",
+      "avif_sha256": "98fb6a79bd1ca88f61a5c7ba735826ebc5e84691e4d943764bfb17d7868e7a47",
+      "settings_rev": 1
+    },
+    "5c4608a57f2c8f0b": {
+      "url": "https://raw.githubusercontent.com/kurobayomi/kurobayomi/main/docs/images/listing/08-search.webp",
+      "etag": "\"81b8d86cfbc2ec991088e41a6fd9c0183760f8461f812732000d49cc2c1b5d10\"",
+      "source_sha256": "ead398703d9ebd81cd6e759d3514ac20026a79965da0277b194d7c684bee7438",
+      "avif_sha256": "6a49b9d5d30b2f92914f20757ee4a8e674e4ffa4877edabcbaa90509fcfa58bc",
+      "settings_rev": 1
+    },
+    "50b8839f871797cc": {
+      "url": "https://raw.githubusercontent.com/kimlimjustin/xplorer/master/docs/static/img/docs/themed-xplorer.webp",
+      "etag": "\"0358634e88c9c3c29ebc722a34d92aa3a5b645efac47d95e8f3eef3eaf3bbca9\"",
+      "source_sha256": "ec206f93de4770800a75fce0f7bf604e825e06009eec0bad29faf7fdf5996025",
+      "avif_sha256": "95e6b8badb6759a3d611b170d39cdb253f65573c627d8cb04561ae11b1ce15c4",
+      "settings_rev": 1
+    },
+    "f6be54a7c8adffd0": {
+      "url": "https://raw.githubusercontent.com/RafaelGoulartB/Heronite/main/assets/screenshots/collection.webp",
+      "etag": "\"237638bb8923dba9ea9cd32f9ba7709d92793c74723e92a70fbe606e7be2f77a\"",
+      "source_sha256": "9a68334ee0014437bf75f204dd80d2e07d20465a70ca12cbe8957991e0cc726e",
+      "avif_sha256": "1fb36d75422bb261dde18d3b3da86681baf3753f4ed6380a91a97083cfee7021",
+      "settings_rev": 1
+    },
+    "41e71c38af69426d": {
+      "url": "https://github.com/Khyretos/3dco-plus/raw/main/images/network_demo.webp",
+      "etag": "\"4a63886424aed4b754e9165b2a2793eb120e74fc78c6a18cd66c7c79ff65e5f8\"",
+      "source_sha256": "fbad3030c975d4921a6f7c4c3c8684a03e89df96e8deeb691a8a830ad829ec68",
+      "avif_sha256": "9a61c3903715bc7b349f4a592bda1d23b28182b38dcdfd0c11ad69e70fb5065d",
+      "settings_rev": 1
+    },
+    "5bbe5d123cc1139b": {
+      "url": "https://raw.githubusercontent.com/Ferase/SwampSwap/refs/heads/master/images/SwampSwap_Window_Screenshot_02.webp",
+      "etag": "\"ee8fa245acd39ed268a473d6c69d9f43f2559fb2c0212b53eab0a3783e2b5797\"",
+      "source_sha256": "4a78ee5a3c9cc9766ee6ee6636c4de987649f6889f25a640266a4b51d13ce5f9",
+      "avif_sha256": "cca9a2060513eb0fe1279011c0a6483e702851afea5ac78ef590d44fd7e5ca15",
+      "settings_rev": 1
+    },
+    "5602efe276686c49": {
+      "url": "https://github.com/user-attachments/assets/d916b3d9-ebbd-462a-889d-df3916cc2681",
+      "etag": "\"f02cdf8ac2075e3b6fbefbd2b06429c1\"",
+      "source_sha256": "adffe02abb4bfcf1e24f0a91395c81beefbefadf2fa7d7957ceee1b47868d1c6",
+      "avif_sha256": "46ed72ad79a0417b608408791b6b96d58dcd8cea42e0cbcbde9f463fe2ef4086",
+      "settings_rev": 1
+    },
+    "a242136f7eaf3ff8": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/warpinator/2.webp",
+      "etag": "\"2cdab7c79b2fb655f89391011c0698b77ee071c920b479faee4c59f299757129\"",
+      "source_sha256": "4950fea5b8c0ae5ad81b5e7e32d82144b302e64c406d7fc29900e55eab02a51e",
+      "avif_sha256": "791db595bf202746008052e38d0c3f0d086210c7252df6af5b49b14daa20662d",
+      "settings_rev": 1
+    },
+    "94e01e9496eb15b4": {
+      "url": "https://user-images.githubusercontent.com/67564416/206095394-b00bab7f-a016-4908-8a48-3c3ecb158e1b.png",
+      "etag": "\"6aa4ca0732d59d1040570abb553c21f2\"",
+      "source_sha256": "9c02084e57957da97b86c3f98e9416165af28e2c8ddd8ce78f25e444260523e8",
+      "avif_sha256": "d0f0a2254423ddd628c73d6199a9c774e32cfb4e3d3c93758ec937f842dfa020",
+      "settings_rev": 1
+    },
+    "ba45dbda6b2b1ad1": {
+      "url": "https://Portable-Linux-Apps.github.io/contribute_ss.webp",
+      "etag": "\"6af5ba4f-21c8\"",
+      "source_sha256": "70d6830add4521908c0253c9e1c7f0556362e48c278b8d4feab0761754b88924",
+      "avif_sha256": "2ba53e6d8e02380cb711cbaaea392fea478b0a7b18106c9f465be4999a6716dd",
+      "settings_rev": 1
+    },
+    "6c165265c1a42380": {
+      "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/warpinator/5.webp",
+      "etag": "\"6767c14ae462468d88d708f5eb1a6d93654fa3afeab61bfde62df2f335c2076d\"",
+      "source_sha256": "ac247a61ce6abbc1bfe5d043331f1413d080d8214b32be016f36c08f198328c2",
+      "avif_sha256": "8f3ac2d38de9af5c83ed2b636ccd6ca7b34caca97f7d94d20aa94757dbcfbdb8",
+      "settings_rev": 1
+    },
+    "9e655ee46ac78269": {
+      "url": "https://raw.githubusercontent.com/Pratyay360/drawx/refs/heads/main/public/image.webp",
+      "etag": "\"7575d2914c612280f327e4026184e0619569367b286580fae8bfc1c7fa7a583f\"",
+      "source_sha256": "40d406482b43a448b608ac3f2f8c78028815a35794541d57b819ec6243c9a5cc",
+      "avif_sha256": "711937008ef6fcd86f277d146f9e601bc1299af342da7c03f717b672d81c6751",
+      "settings_rev": 1
+    }
+  }
+}
