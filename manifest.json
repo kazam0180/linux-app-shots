@@ -338,9 +338,9 @@
     },
     "654f6e7827998315": {
       "url": "https://raw.githubusercontent.com/OpenTubeX/opentubex.github.io/master/src/assets/screenshots/opentubex-3-dark.webp",
-      "etag": "\"933bc80e371b043034da0fe1effc2fe09adc316d4c7944649e47f764542297e4\"",
-      "source_sha256": "fe4096b71f3007f3b5ffddcc75b2c1dfdbe6e2150ae6b5116d3ebb4bcd7074d1",
-      "avif_sha256": "d1667c6a86f10d5eb9902bacb8912eff2e66cc78b8826b987e8ca3c2cf37c478",
+      "etag": "\"646e8a7e6fff564b106f9bc8c1418cb5346a6e80112d6e032aa65ee67f7919d9\"",
+      "source_sha256": "6250597196446bc7748be2275e19d4284f69635172bab89b71de87e13dcddf23",
+      "avif_sha256": "337e635fed1aab081a428e24a3ccd8075981eaa3a526a0c2a466bc56010b3fef",
       "settings_rev": 1
     },
     "69dc16702e0e5766": {
@@ -422,9 +422,9 @@
     },
     "86480f0367ca26fa": {
       "url": "https://raw.githubusercontent.com/OpenTubeX/opentubex.github.io/master/src/assets/screenshots/opentubex-2-dark.webp",
-      "etag": "\"690aa39fc7c96344fe72e25273a9e0782e7d44e1ab0ad072725c1a0ea88ce03b\"",
-      "source_sha256": "5b98966397fbc543fb2a535e42a427a347ba4e59e39bebb143e4a164d762b2a2",
-      "avif_sha256": "6a688aecac75a3c6b5aaa8413bbed0b669b5cdcbaa197f2a408202439a440387",
+      "etag": "\"11523e1121eea76a76ed2ba8b3ea123bdd98ff6de3cf82c95edff5ffc4c410ad\"",
+      "source_sha256": "afe684bb1abec5ab40e7f1601473d33a3ed9da0de8c7729a496d24e8426b3bcd",
+      "avif_sha256": "bffcbaf5bb99bda137d3ae8c4a3eb129e19b7e55f8593c8cfa80484963df4f50",
       "settings_rev": 1
     },
     "86d3ceeafedfce7d": {
@@ -464,9 +464,9 @@
     },
     "98bdbba95a8d739f": {
       "url": "https://raw.githubusercontent.com/OpenTubeX/opentubex.github.io/master/src/assets/screenshots/opentubex-1-dark.webp",
-      "etag": "\"3ba729e96639978192dd0d61462e6fc204eec7aa5e81c4f0f06ab29b735b1366\"",
-      "source_sha256": "06b855fac48691d60264a915f1e890fb8fb2051bc86d93a019887b7519c2c497",
-      "avif_sha256": "a315bc396945e8595a02233587e89f82d2f7385eaae4062b00dc753dfe958e1e",
+      "etag": "\"6d6502aed9f80aac9a9855b5e14f0e1e062917e9b9b2d294d4cb3d0192a7da67\"",
+      "source_sha256": "e797496ec6fab40d461af58dfaf656ade6589321f77327c1f8b4c0c85069bdbc",
+      "avif_sha256": "5dc75e274ce933bc279cabea08c02653815715244d31f73987339a1eed03021e",
       "settings_rev": 1
     },
     "9af71777a307db6e": {
@@ -625,7 +625,7 @@
     },
     "ba45dbda6b2b1ad1": {
       "url": "https://Portable-Linux-Apps.github.io/contribute_ss.webp",
-      "etag": "\"6afab526-21c8\"",
+      "etag": "\"6afc2d90-21c8\"",
       "source_sha256": "70d6830add4521908c0253c9e1c7f0556362e48c278b8d4feab0761754b88924",
       "avif_sha256": "2ba53e6d8e02380cb711cbaaea392fea478b0a7b18106c9f465be4999a6716dd",
       "settings_rev": 1
@@ -663,6 +663,13 @@
       "etag": "\"ab61f900f2e74d7df9fc9e66ab8eaa91\"",
       "source_sha256": "e56deeb5bfb90366a83713ed4182e2e44ce9fb67d8610951fcb1763ce4703911",
       "avif_sha256": "bd652b79a95b189e7b8a16afa13991cbb98df9711df3efb5390289652cf51924",
+      "settings_rev": 1
+    },
+    "bf6d1d61f4c01b6f": {
+      "url": "https://wekan.fi/wekan-board-views.png",
+      "etag": "\"6af90cca-38703\"",
+      "source_sha256": "bb4199ee6c3fd20262bfb7a77ec0ec251d98f8ce0007636cb96db224e9d8eb44",
+      "avif_sha256": "250fa77f1526f18b794555791a01d8e1cae9fb36ec484518f6d668a42172e3f4",
       "settings_rev": 1
     },
     "c11965aa4d9d7d73": {
@@ -726,6 +733,13 @@
       "etag": "\"315aeeebb69c3b211eac6d549d1d6372f7dbdb98fa663482ccbb20743c7d732d\"",
       "source_sha256": "696f4248fc915e3f4dd5c30855d0a2362175117ca2d4140bb6e67b55315bc803",
       "avif_sha256": "c48753dbb38513c5db1da77807bd520ac320dbdb9b4eec5b18314cf4487686ae",
+      "settings_rev": 1
+    },
+    "d5d9cf524da83803": {
+      "url": "https://user-images.githubusercontent.com/598882/144294862-f6684334-ccf4-4e5e-85f8-1d66210a0fff.png",
+      "etag": "\"9c0920363d75f846394a76c6c872adff\"",
+      "source_sha256": "6d46f147ee4d279ace36b89cec6c9340fa496f96d30c9a6684b44dd549a22e47",
+      "avif_sha256": "910048ab1b0424052a5d5544ce23028c51ce74fdc8252eaf016ef1a17665a2d5",
       "settings_rev": 1
     },
     "d8000211fec20b53": {
