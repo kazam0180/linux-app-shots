@@ -84,6 +84,13 @@
       "avif_sha256": "2047888f6ae0f7376d59a5629d5593c907be695e0245348490ed84d2df2e0fea",
       "settings_rev": 1
     },
+    "1881a13a7b634a83": {
+      "url": "https://raw.githubusercontent.com/morfredus/ant-renamer-qt/main/docs/screenshots/English/modern-ui-dark-tabs-files.png",
+      "etag": "\"fb4b1dd2c06fb893c014df7f07b5359fa0da0b5cb26ab4c16fd387c58b54ed8e\"",
+      "source_sha256": "ab5c51086a03a9039060209bae9d5c2332c72ea3bcb584a591315f36f34f84ae",
+      "avif_sha256": "a92cf9a84c6ba9fcaca4f275d84c1635af0ce4b0ff0e09d6507a6de468094479",
+      "settings_rev": 1
+    },
     "18fece345c008c30": {
       "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/xed/1.webp",
       "etag": "\"c28341d97346291427e5b4f9623444dee3b5c55312bd32861050f28b8dc0d232\"",
@@ -469,6 +476,13 @@
       "avif_sha256": "5dc75e274ce933bc279cabea08c02653815715244d31f73987339a1eed03021e",
       "settings_rev": 1
     },
+    "98bf663a343c6eb6": {
+      "url": "https://raw.githubusercontent.com/intermission88/SedotDeck/main/docs/screenshots/1-my-apps.webp",
+      "etag": "\"02a66ecffe029223a88f5af328af9f3e5fedebafc650ef3b6a56ac6de11352bc\"",
+      "source_sha256": "bc3fa389f373e6c18f28587f12e47491eb6889ca3aa9209fdd30b7cf89d9fa8d",
+      "avif_sha256": "409ca37dfeaaa7781cb1955dabb5531ade6ce642a0457c6a427e85d50ef2622b",
+      "settings_rev": 1
+    },
     "9af71777a307db6e": {
       "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/imsprog/5.webp",
       "etag": "\"99747cb8c92583b3257dbdb5e7ea07941d1becd16b0f9865b41d1a48ef07c19d\"",
@@ -546,6 +560,20 @@
       "avif_sha256": "9ced675d6ba1967cf6ff9d25e9ea9e7730042b5a09dfe53ebb78f6d5ed60301c",
       "settings_rev": 1
     },
+    "a6372831b75a68a8": {
+      "url": "https://raw.githubusercontent.com/morfredus/ant-renamer-qt/main/docs/screenshots/English/classic-ui-dark-files.png",
+      "etag": "\"ffbac79faf78f96260e9ca77a8cde6e35a6579b91ab79eba40d76ffeb064a7b5\"",
+      "source_sha256": "acd0348769acf5f05947f129ef7488b26f4980db806173903d6a038ae13a12d5",
+      "avif_sha256": "cfb9b788a458a63af4f3250f1f8b5e2344acc0c5fba5664d11a5e8579d774840",
+      "settings_rev": 1
+    },
+    "a8d61921419996fb": {
+      "url": "https://raw.githubusercontent.com/intermission88/SedotDeck/main/docs/screenshots/3-search-github.webp",
+      "etag": "\"b343845bef0a16e93ab476cb0c8c5574c53dfb7aa4ccbfa64ce35fbb482fcd70\"",
+      "source_sha256": "7d32067e074a7dd5dba75b203e555f940c3297c09e79148778236b2b0e04db69",
+      "avif_sha256": "e684995c6d1ac211fec5734acad2d6291d88e25595f5a433e0ae8c03cb34ffd1",
+      "settings_rev": 1
+    },
     "a910a354d5c4a245": {
       "url": "https://raw.githubusercontent.com/basharovV/musicat/main/docs/track-info.webp",
       "etag": "\"62aaaea48ed4894a6ccce8e83aa7894603752147a6a618c187c82970cf0f07ec\"",
@@ -609,6 +637,13 @@
       "avif_sha256": "82d92fca03e40238c14d9e441ef1223ea4ea9fe18e5eb64f5a7e1a8d642a33f2",
       "settings_rev": 1
     },
+    "b4c7c120c8fd5476": {
+      "url": "https://raw.githubusercontent.com/intermission88/SedotDeck/main/docs/screenshots/2-browse.webp",
+      "etag": "\"7ab079675c3df8da441a5082550f7f05f3a5897af2f69350e1616dcca308e7e2\"",
+      "source_sha256": "72b1c4b3e4932ea959e154adc32f1156c01d8e528507ab3add40ae1202e570f3",
+      "avif_sha256": "9faa9949ac5af9f19474a7d46b2af5945b9b0b172052db27ef944736e66f9a4c",
+      "settings_rev": 1
+    },
     "b794c31378497ec5": {
       "url": "https://aisketch.wanrenhao.me/screenshot-zh.webp",
       "etag": "\"aa93ef58b318a300883700350ac516cb\"",
@@ -625,7 +660,7 @@
     },
     "ba45dbda6b2b1ad1": {
       "url": "https://Portable-Linux-Apps.github.io/contribute_ss.webp",
-      "etag": "\"6afc2d90-21c8\"",
+      "etag": "\"6afd7f6b-21c8\"",
       "source_sha256": "70d6830add4521908c0253c9e1c7f0556362e48c278b8d4feab0761754b88924",
       "avif_sha256": "2ba53e6d8e02380cb711cbaaea392fea478b0a7b18106c9f465be4999a6716dd",
       "settings_rev": 1
@@ -667,7 +702,7 @@
     },
     "bf6d1d61f4c01b6f": {
       "url": "https://wekan.fi/wekan-board-views.png",
-      "etag": "\"6af90cca-38703\"",
+      "etag": "\"6afd7da0-38703\"",
       "source_sha256": "bb4199ee6c3fd20262bfb7a77ec0ec251d98f8ce0007636cb96db224e9d8eb44",
       "avif_sha256": "250fa77f1526f18b794555791a01d8e1cae9fb36ec484518f6d668a42172e3f4",
       "settings_rev": 1
@@ -684,6 +719,13 @@
       "etag": "\"66a459ec7d4ffa5358477134f9727645787557c1ec709942c2508ac31ef15c26\"",
       "source_sha256": "19f5a554e0ec8a825d13aced05e7624b324e70e9a6dbba905d7bf772a87c0e53",
       "avif_sha256": "1e9c0fffe0f4c0751c0b24ff1cc47a64df11a2b531d846d471f7592e3c0049b9",
+      "settings_rev": 1
+    },
+    "c612d0e51760a136": {
+      "url": "https://raw.githubusercontent.com/morfredus/ant-renamer-qt/main/docs/screenshots/English/modern-ui-dark-single-screen-columns.png",
+      "etag": "\"215560ddbe0761c87ea6823e3cb171c2e73df8ddfce41f2e4fedd0ad9378a073\"",
+      "source_sha256": "6fec62cc6672482cc0bfac0545d80ee560e48ceda731923c65d202dc7c4d2553",
+      "avif_sha256": "43fb905f1f04c921f794a5c725f2bf153e8a9d8b9714df8591d76184d85b4bc6",
       "settings_rev": 1
     },
     "c6a14c77355ce139": {
@@ -735,6 +777,13 @@
       "avif_sha256": "c48753dbb38513c5db1da77807bd520ac320dbdb9b4eec5b18314cf4487686ae",
       "settings_rev": 1
     },
+    "d5a4546141207093": {
+      "url": "https://raw.githubusercontent.com/morfredus/ant-renamer-qt/main/docs/screenshots/English/options-dark.png",
+      "etag": "\"b262ee1443005a2762d3fc6cea68dcc0052ea9c7e56821c9333d3d47aa8f3f2b\"",
+      "source_sha256": "dbe6a17a5df94371129755c9e9f69ebbadb60ae6f84f6652ac0fcd7fdf429df2",
+      "avif_sha256": "9968149d95c30236f6f2af9dff2ce240563714fd9d98cb326ceeea8d9fdf8159",
+      "settings_rev": 1
+    },
     "d5d9cf524da83803": {
       "url": "https://user-images.githubusercontent.com/598882/144294862-f6684334-ccf4-4e5e-85f8-1d66210a0fff.png",
       "etag": "\"9c0920363d75f846394a76c6c872adff\"",
@@ -747,6 +796,13 @@
       "etag": "\"b5bcbf3963b9e89e8d6efdfb7ac21ec2052ec0572011a659536599c8505ac3b9\"",
       "source_sha256": "daa9f54000fb306162f8b91d5f4d294b28384c51b85004518c51c12f4ff0d362",
       "avif_sha256": "d0f704f3b28f6e09139a9d151c7e2e31a52c2446aad9a0451ed6dec836e2718e",
+      "settings_rev": 1
+    },
+    "d86660c6e10f1591": {
+      "url": "https://raw.githubusercontent.com/morfredus/ant-renamer-qt/main/docs/screenshots/English/modern-ui-light-tabs-actions.png",
+      "etag": "\"2ccaa0a42067525d66fd3daef9078392f8995480d12d5fc2d227d708b1744e2b\"",
+      "source_sha256": "9b6cb6c596f455aaad6de2296edb8a6995d13d298fe4d1cad94cbcae58eee693",
+      "avif_sha256": "c82821e7cafc18d04fc3a39ab7088a2f626c474e2e86031ea3fe4050486a2448",
       "settings_rev": 1
     },
     "d9e257a0124bb003": {
