@@ -224,6 +224,13 @@
       "avif_sha256": "9a61c3903715bc7b349f4a592bda1d23b28182b38dcdfd0c11ad69e70fb5065d",
       "settings_rev": 1
     },
+    "4b5250c6421a1143": {
+      "url": "https://raw.githubusercontent.com/hcet-sudo/neo-appimage/refs/heads/main/assets/neo-rain-1.webp",
+      "etag": "\"ea840ab15b921554a5ecd2b685ffe5377537bb62a4144ea2c6d5c6b40e34f416\"",
+      "source_sha256": "d8b6c860311aa3e98ac3ee5bcb2e79b848f1fcd723b3ed0428683f638c8784e5",
+      "avif_sha256": "7dd526744202fe7bd8f544e960e5b0f96d2b19c7e9c43aa6a73e20998cc95d0c",
+      "settings_rev": 1
+    },
     "4d3de518147b4c4b": {
       "url": "https://raw.githubusercontent.com/jorio/OttoMatic/master/docs/screenshot.webp",
       "etag": "\"c9a062abe4c2ed827ac9248064ff11845682ae10749eb8a0a03413d846f844bf\"",
@@ -448,6 +455,13 @@
       "avif_sha256": "7712e9cefe08f53bc9a250126549a448b4e376651903ea44a138a02844630b2a",
       "settings_rev": 1
     },
+    "8f6fe7ad17b605f4": {
+      "url": "https://raw.githubusercontent.com/hcet-sudo/neo-appimage/refs/heads/main/assets/neo-rain-2.webp",
+      "etag": "\"e2ddf2dc82370dabde1adeaa20d386754188fcf2518d9b1ed8750fb5edd0c67e\"",
+      "source_sha256": "eb08e650e92cc272414ec4d0741a076face575b306a4bdc193a4adb5d5cc034a",
+      "avif_sha256": "f9f5f74d9d58f27cc464ffe0da7b98bdee882cf074ffc67ee2569cab6466f23e",
+      "settings_rev": 1
+    },
     "920e690f0937c600": {
       "url": "https://raw.githubusercontent.com/Kieirra/murmure/main/public/murmure-demo.webp",
       "etag": "\"655744ea23f1d205fa37757de903cd20c3c5be6f0607a0cc716abdd1668bbd1d\"",
@@ -625,9 +639,9 @@
     },
     "b30031f17aefe7db": {
       "url": "https://raw.githubusercontent.com/jaisurya-dev-art/rigby2d/main/docs/images/scene-editor.jpg",
-      "etag": "\"a856e7051b6b8046e31c93b09884dbdf0bdf04a1b45e9ba33f5afc016baf11a6\"",
-      "source_sha256": "614efa7ea448e222dc92b62907a503cb559a8844abd674be2d12a9eb280a7356",
-      "avif_sha256": "fa797ad7f1c477422e2a01bba76a2ee3d24efaf0147c2193b1901268117fad66",
+      "etag": "\"5e9d41e43a0f375b68795c39c17361bd6ae3c13bc97d484f443d5f8b4d0c7019\"",
+      "source_sha256": "eb0fed608bd07b1e5147b3681f59b0abf59a48b27ee06860beed358f5cba1a21",
+      "avif_sha256": "66b9670e0f9c87b2fe76345a605f47efe155cb73cc983ec4d63146edc47756d8",
       "settings_rev": 1
     },
     "b38d5c4f033c04f3": {
@@ -660,7 +674,7 @@
     },
     "ba45dbda6b2b1ad1": {
       "url": "https://Portable-Linux-Apps.github.io/contribute_ss.webp",
-      "etag": "\"6b000c2a-21c8\"",
+      "etag": "\"6b013595-21c8\"",
       "source_sha256": "70d6830add4521908c0253c9e1c7f0556362e48c278b8d4feab0761754b88924",
       "avif_sha256": "2ba53e6d8e02380cb711cbaaea392fea478b0a7b18106c9f465be4999a6716dd",
       "settings_rev": 1
@@ -702,7 +716,7 @@
     },
     "bf6d1d61f4c01b6f": {
       "url": "https://wekan.fi/wekan-board-views.png",
-      "etag": "\"6aff640b-38703\"",
+      "etag": "\"6b0170ba-38703\"",
       "source_sha256": "bb4199ee6c3fd20262bfb7a77ec0ec251d98f8ce0007636cb96db224e9d8eb44",
       "avif_sha256": "250fa77f1526f18b794555791a01d8e1cae9fb36ec484518f6d668a42172e3f4",
       "settings_rev": 1
@@ -856,9 +870,9 @@
     },
     "e827a0cf44789f10": {
       "url": "https://raw.githubusercontent.com/jaisurya-dev-art/rigby2d/main/docs/images/autorig-result.jpg",
-      "etag": "\"56cf2a1d43941bb1d4fbbf0797f3b47271cbdd3e94659e87da1e33a11f1e0d2e\"",
-      "source_sha256": "74f8f8c06d7bc92a365d145f1c21b04c0a00a5507f3f91c543dea3a32f0a0436",
-      "avif_sha256": "a6c911aa16ba312be93e969e469d89bb7dd8be1160d7ebda134364bc1123fe0e",
+      "etag": "\"530f8f434d4632f5000ddc5626b8e1168a863de5e0b8c9987cf6c6ea2781fdb7\"",
+      "source_sha256": "5a6b5560a1d19dc4bb2517aa2d563643b32933f1f603a8c66a6a08706f75b486",
+      "avif_sha256": "f496874e76788664cc8e603fc9cf82f4ffa52255ed0fe5580b5799fd58c122bd",
       "settings_rev": 1
     },
     "e991dafc79887f13": {
