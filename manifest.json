@@ -1,5 +1,19 @@
 {
   "entries": {
+    "012ecfbf3ce7a28e": {
+      "url": "https://pelicanux.github.io/pg/peligames/assets/monitoring.jpg",
+      "etag": "\"6af6b3d5-172dd\"",
+      "source_sha256": "93486bced400228a54632f3ec45d7b15823d692e036204e1eef6a547d9d30bb7",
+      "avif_sha256": "240a964f0af5c3162ac812edf38007c978fe9629ccf205f1c2b80758052b5f37",
+      "settings_rev": 1
+    },
+    "022918fdc0ecbcd1": {
+      "url": "https://pelicanux.github.io/pg/peligames/assets/nexus.jpg",
+      "etag": "\"6af6b3d5-21df5\"",
+      "source_sha256": "6e5f0b8daa2d19a45e0accd1610b62b272d319ac493f18c8365d09373e46b606",
+      "avif_sha256": "61a45557c01dddc9292ae554a1b787dc7165d0084e43f463bd2e885e1694a95b",
+      "settings_rev": 1
+    },
     "04ae281e038de3a1": {
       "url": "https://media.pinslip.app/03-three-views-tabs.webp",
       "etag": "\"fdce4950b04d0ad2598d2be3dc3653c2\"",
@@ -224,6 +238,13 @@
       "avif_sha256": "9a61c3903715bc7b349f4a592bda1d23b28182b38dcdfd0c11ad69e70fb5065d",
       "settings_rev": 1
     },
+    "441876843dcd1de0": {
+      "url": "https://pelicanux.github.io/pg/peligames/assets/dlssnr.jpg",
+      "etag": "\"6af6b3d5-2009c\"",
+      "source_sha256": "001f0f31495b6f25ea71ab397bc8614a8c9f86dacb389a1b2b62b9aa3dea635c",
+      "avif_sha256": "f7691a406cf4fbfc59562d8c329371c6b760d7e12b2a914c26ad6400094305d2",
+      "settings_rev": 1
+    },
     "4b5250c6421a1143": {
       "url": "https://raw.githubusercontent.com/hcet-sudo/neo-appimage/refs/heads/main/assets/neo-rain-1.webp",
       "etag": "\"ea840ab15b921554a5ecd2b685ffe5377537bb62a4144ea2c6d5c6b40e34f416\"",
@@ -355,6 +376,13 @@
       "etag": "\"646e8a7e6fff564b106f9bc8c1418cb5346a6e80112d6e032aa65ee67f7919d9\"",
       "source_sha256": "6250597196446bc7748be2275e19d4284f69635172bab89b71de87e13dcddf23",
       "avif_sha256": "337e635fed1aab081a428e24a3ccd8075981eaa3a526a0c2a466bc56010b3fef",
+      "settings_rev": 1
+    },
+    "66737b00e88a389e": {
+      "url": "https://pelicanux.github.io/pg/peligames/assets/themes.jpg",
+      "etag": "\"6af6b3d5-12792\"",
+      "source_sha256": "92168350c6dd0f99b9f554fb1e56dad838754eef281b090a66c3ae3280a7bc27",
+      "avif_sha256": "6f98ef9dbd991038be79305c42765616b55ab8bde38ee7009f0999ee0a6c1664",
       "settings_rev": 1
     },
     "69dc16702e0e5766": {
@@ -674,7 +702,7 @@
     },
     "ba45dbda6b2b1ad1": {
       "url": "https://Portable-Linux-Apps.github.io/contribute_ss.webp",
-      "etag": "\"6b02aa1a-21c8\"",
+      "etag": "\"6b03acc0-21c8\"",
       "source_sha256": "70d6830add4521908c0253c9e1c7f0556362e48c278b8d4feab0761754b88924",
       "avif_sha256": "2ba53e6d8e02380cb711cbaaea392fea478b0a7b18106c9f465be4999a6716dd",
       "settings_rev": 1
@@ -716,7 +744,7 @@
     },
     "bf6d1d61f4c01b6f": {
       "url": "https://wekan.fi/wekan-board-views.png",
-      "etag": "\"6b02b08a-38703\"",
+      "etag": "\"6b037b14-38703\"",
       "source_sha256": "bb4199ee6c3fd20262bfb7a77ec0ec251d98f8ce0007636cb96db224e9d8eb44",
       "avif_sha256": "250fa77f1526f18b794555791a01d8e1cae9fb36ec484518f6d668a42172e3f4",
       "settings_rev": 1
@@ -908,6 +936,13 @@
       "etag": "\"6e5a2ee00b98e7bbcf4f4fbaf6324901f3cee3ad176552f104f588823f6ed4c3\"",
       "source_sha256": "4a0757a4e3766987e84ffc68cbfbc240deaf5fec0c948417d0554d2e766e8d38",
       "avif_sha256": "81c96f001fd941a20e964de2707eca90e43cc2c8f152b2b3ec42281e5b7d28dd",
+      "settings_rev": 1
+    },
+    "f274a5b47c71d1fe": {
+      "url": "https://pelicanux.github.io/pg/peligames/assets/library.jpg",
+      "etag": "\"6af6b3d5-259f6\"",
+      "source_sha256": "93f74355155e95ea8e61ea8736e942d3d0443d94e7fc75c815ccddf2b4d3c8b2",
+      "avif_sha256": "c206806d395782b3c56708c51a29bb230f24b259d9a0178c1d8c7827e72fc6bd",
       "settings_rev": 1
     },
     "f6be54a7c8adffd0": {
