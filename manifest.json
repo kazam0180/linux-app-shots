@@ -133,6 +133,13 @@
       "avif_sha256": "31808cdf52af921c0d50f7ecbc5e5226b7a5fb27ae29116b94866cd8fb41680c",
       "settings_rev": 1
     },
+    "20a19ab51c57e0f2": {
+      "url": "https://raw.githubusercontent.com/anefzaoui/misterdownloadmanager/main/docs/images/scheduler.webp",
+      "etag": "\"7a03f471a6d1f8951a931f1f461176126ab8468da5c82de98371187ea559efec\"",
+      "source_sha256": "8049f92501dad41ded57fb30038a3e88c85e191de8adb54322dd5abdac97492e",
+      "avif_sha256": "d4e65af252ef2268224aab945ac39d799c2b6b89a3d14a6afdec70bb0abd2e4d",
+      "settings_rev": 1
+    },
     "2234520281d42226": {
       "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/warpinator/3.webp",
       "etag": "\"048ac49ecec4abd25f54b582db45dceaa52eeeb9f85289298bfabc654acf5974\"",
@@ -217,6 +224,13 @@
       "avif_sha256": "796801cd19fe6d6c7199484fc6e4bcb2dd384d82f2a9dc891aa4e1912823eada",
       "settings_rev": 1
     },
+    "400ba9c851e08e42": {
+      "url": "https://misterdownloadmanager.com/assets/screens/progress-dark.webp",
+      "etag": "\"6b095a52-26d8\"",
+      "source_sha256": "8e0eef7f993ec429fac9d09b4ba5316b526608c165239bed9df934d5f056f914",
+      "avif_sha256": "293a0138045072c6f112e978274389ade5bb2db3acf4e3c27667d18976f85ea4",
+      "settings_rev": 1
+    },
     "40a29dd5d73e5bcb": {
       "url": "https://i.ibb.co/6cxVJy1H/vn.webp",
       "etag": null,
@@ -243,6 +257,13 @@
       "etag": "\"6af6b3d5-2009c\"",
       "source_sha256": "001f0f31495b6f25ea71ab397bc8614a8c9f86dacb389a1b2b62b9aa3dea635c",
       "avif_sha256": "f7691a406cf4fbfc59562d8c329371c6b760d7e12b2a914c26ad6400094305d2",
+      "settings_rev": 1
+    },
+    "48668a4ebd0d85f7": {
+      "url": "https://raw.githubusercontent.com/anefzaoui/misterdownloadmanager/refs/heads/main/docs/images/video-button-youtube.webp",
+      "etag": "\"93ce5e756f7c3680464136d65b9945b98c5a29689b1b0c78b6c42ffb1e2223d4\"",
+      "source_sha256": "d96708ae34adebfdf771f1f97c8433a4551190ac02d3c5a7b50af279402cfd68",
+      "avif_sha256": "6cce65ad7a1410cb9dc336a937c454cc9904e6ef40cb0924bf42c3f6d1bee36c",
       "settings_rev": 1
     },
     "4b5250c6421a1143": {
@@ -373,9 +394,9 @@
     },
     "654f6e7827998315": {
       "url": "https://raw.githubusercontent.com/OpenTubeX/opentubex.github.io/master/src/assets/screenshots/opentubex-3-dark.webp",
-      "etag": "\"f210f729f00ff25b2e495f464867dcb22b897f4339feed2fdf3ba8537c471eed\"",
-      "source_sha256": "7650d117db77c18f88d20dfd4bf46bace26d42e197c02da4ee0d5bb206a91d4c",
-      "avif_sha256": "34fa3f8a5231c134e63647e9d4816b24d1844576cd58e207585f95faf35340f2",
+      "etag": "\"081247b95284387bb0f6f552b8487f7727b95082a2b9dc676cd763b28d81e668\"",
+      "source_sha256": "fb27203473cb410ed44a620d7d13ccdef97a3b5f5a15afe7e51d6458f53c3bd7",
+      "avif_sha256": "f2f6bf54cde31bcaae5331d0aff2f716513a2598b291d71fee3fea86cdc678ec",
       "settings_rev": 1
     },
     "66737b00e88a389e": {
@@ -387,9 +408,9 @@
     },
     "69dc16702e0e5766": {
       "url": "https://raw.githubusercontent.com/klNuno/accshift/main/.github/assets/demo-switch.webp",
-      "etag": "\"5e989e86d12488fe99aec1e61bc0f55d561953b679ce00e0df49bdd4a8576e3b\"",
-      "source_sha256": "ee02832ced4e9ba9d6a41434b28fa48efb5bd6c8cddbe6dffee9ac578e54dc81",
-      "avif_sha256": "1882759b4ee881a00dad4c0870a00742d3c58b3f5de68bcbe9195915693c308c",
+      "etag": "\"ed1176a4e45afe98565eec0566c63fadbe9733eb68bb4b0b3e1066802994b657\"",
+      "source_sha256": "d8ba9075ca184b5d74613b2e96dec67a783a558a161897afef68e2f48b62b0c2",
+      "avif_sha256": "e3f3240c1333b853fe66e7a3beb4d645f5735010561a807db073d0ef46302def",
       "settings_rev": 1
     },
     "69f9ff0a6a39abdb": {
@@ -411,6 +432,13 @@
       "etag": "\"bce2483e9d5e36972f761b1290aa5bb3813f074629c700c84f3a41f04f7cbca5\"",
       "source_sha256": "a924f3a66f836203a6b03f1fd56d3f60f32f3ebfe87e42994d42606046939329",
       "avif_sha256": "d45503a926cb0991d63296766d1598164f91623bf3773db119dbada9567f7086",
+      "settings_rev": 1
+    },
+    "704bcda10b09acbe": {
+      "url": "https://raw.githubusercontent.com/anefzaoui/misterdownloadmanager/main/docs/images/progress-torrent.webp",
+      "etag": "\"35e0a9550c7efafc73116af2595af99a98e1a961fcfafc7279227e5b4b335887\"",
+      "source_sha256": "cfe5ec9dce31f5e87065d6addf94fa2adf58ed111e676ce8dca779d112a90281",
+      "avif_sha256": "fed59708b27fa703eefadcdd34693d775448b4c5b4eabe8bdf667ab560d18b21",
       "settings_rev": 1
     },
     "718d39ab92c37c97": {
@@ -702,7 +730,7 @@
     },
     "ba45dbda6b2b1ad1": {
       "url": "https://Portable-Linux-Apps.github.io/contribute_ss.webp",
-      "etag": "\"6b07c223-21c8\"",
+      "etag": "\"6b0946b6-21c8\"",
       "source_sha256": "70d6830add4521908c0253c9e1c7f0556362e48c278b8d4feab0761754b88924",
       "avif_sha256": "2ba53e6d8e02380cb711cbaaea392fea478b0a7b18106c9f465be4999a6716dd",
       "settings_rev": 1
@@ -744,7 +772,7 @@
     },
     "bf6d1d61f4c01b6f": {
       "url": "https://wekan.fi/wekan-board-views.png",
-      "etag": "\"6b0762b4-38703\"",
+      "etag": "\"6b08dfb4-38703\"",
       "source_sha256": "bb4199ee6c3fd20262bfb7a77ec0ec251d98f8ce0007636cb96db224e9d8eb44",
       "avif_sha256": "250fa77f1526f18b794555791a01d8e1cae9fb36ec484518f6d668a42172e3f4",
       "settings_rev": 1
@@ -817,6 +845,13 @@
       "etag": "\"315aeeebb69c3b211eac6d549d1d6372f7dbdb98fa663482ccbb20743c7d732d\"",
       "source_sha256": "696f4248fc915e3f4dd5c30855d0a2362175117ca2d4140bb6e67b55315bc803",
       "avif_sha256": "c48753dbb38513c5db1da77807bd520ac320dbdb9b4eec5b18314cf4487686ae",
+      "settings_rev": 1
+    },
+    "d3a132c4dcabe195": {
+      "url": "https://misterdownloadmanager.com/assets/screens/main-dark.webp",
+      "etag": "\"6b095a52-59de\"",
+      "source_sha256": "b5fa7abe00658abf070e6b1d6d0adf691c266c507ab02e1063629a30fa35c930",
+      "avif_sha256": "b4376badde9d09b8b8e19167c344c7f47ddf565efbedd2d012f7af6e22444661",
       "settings_rev": 1
     },
     "d5a4546141207093": {
@@ -922,6 +957,13 @@
       "etag": "\"13dbd6c5a4a0f307857faa39b32242b067ee7efe005985aeed1a3c4878f29232\"",
       "source_sha256": "51a3492c92e62a118749b47757921fd7bf2d03e2192480d1649a898b375fcd44",
       "avif_sha256": "32c4177a28a57de4531ba13826563ff9c81513cc5dc0973e5dab033fc80fa525",
+      "settings_rev": 1
+    },
+    "eea1f28a9e717c56": {
+      "url": "https://raw.githubusercontent.com/anefzaoui/misterdownloadmanager/main/docs/images/add-torrent.webp",
+      "etag": "\"92e3e7e34a3496c82292c14d1b09d2d4fe0989861d5bd8509c32a924e5f4dfed\"",
+      "source_sha256": "a58e0cba1fce9003767a9da67d942c93dec0da1127a12417be25bd98359e1255",
+      "avif_sha256": "77cfdfef43c487b865f0e4b73c74cedc6746298d3cf399145b124823eb06d906",
       "settings_rev": 1
     },
     "ef6958eacc524e08": {
