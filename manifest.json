@@ -77,6 +77,13 @@
       "avif_sha256": "f82a51907880443dab1d61d7a6f275b8769e94a142154be5c5040073477e19c9",
       "settings_rev": 1
     },
+    "12954ef0068f2a80": {
+      "url": "https://eyecansee.montinaro.info/img/devices.webp",
+      "etag": "\"6b0ab3d1-afd6\"",
+      "source_sha256": "fafaa02c7dbe2d99cc2f02ce5de89872ef30621573e4f674b017d7f1de775fba",
+      "avif_sha256": "e8d5f80cfbd3aae2ad0cc240580ae535d69f36cbae6fb3936294ce4d85dbbbc5",
+      "settings_rev": 1
+    },
     "15d9d1daa84c183b": {
       "url": "https://raw.githubusercontent.com/petertzy/markdown-reader/refs/heads/main/docs/markdown-reader.webp",
       "etag": "\"a7767f9dfe3fa2b8cd9bf79700da546cd9fb4c25ad9008cf54c4f11de5f6b2f5\"",
@@ -177,9 +184,9 @@
     },
     "346e810e798cff6d": {
       "url": "https://raw.githubusercontent.com/iongion/container-desktop/main/website-src/static/img/unified/Build.png",
-      "etag": "\"6e3793895c0262fb233ba1152ee66936cce845bde7573d8571db389f99298de3\"",
-      "source_sha256": "41a994b65e0bdc315db2b5a57b4e75019f5f57abe6e835af4bcd0e927fee4fab",
-      "avif_sha256": "d8f8dddda563636e354e59b6e6eeaca7462c903f1a2e2aafe0ae8ab064120b05",
+      "etag": "\"177bb471cc22b68c4bb3e50c2a31ea5130dbef9c578d255f948d9d5e267f95df\"",
+      "source_sha256": "bacff85ab75173f970505005245161dad676dd3e11ad95142105658f9583932a",
+      "avif_sha256": "d4a959af142774c60cccb724e2987acffb35d62b7c1a3f9902af80c81008ef26",
       "settings_rev": 1
     },
     "34b7750647f56dd2": {
@@ -226,7 +233,7 @@
     },
     "400ba9c851e08e42": {
       "url": "https://misterdownloadmanager.com/assets/screens/progress-dark.webp",
-      "etag": "\"6b095a52-26d8\"",
+      "etag": "\"6b0ab1cc-26d8\"",
       "source_sha256": "8e0eef7f993ec429fac9d09b4ba5316b526608c165239bed9df934d5f056f914",
       "avif_sha256": "293a0138045072c6f112e978274389ade5bb2db3acf4e3c27667d18976f85ea4",
       "settings_rev": 1
@@ -394,9 +401,9 @@
     },
     "654f6e7827998315": {
       "url": "https://raw.githubusercontent.com/OpenTubeX/opentubex.github.io/master/src/assets/screenshots/opentubex-3-dark.webp",
-      "etag": "\"081247b95284387bb0f6f552b8487f7727b95082a2b9dc676cd763b28d81e668\"",
-      "source_sha256": "fb27203473cb410ed44a620d7d13ccdef97a3b5f5a15afe7e51d6458f53c3bd7",
-      "avif_sha256": "f2f6bf54cde31bcaae5331d0aff2f716513a2598b291d71fee3fea86cdc678ec",
+      "etag": "\"e4a3240cc356a931f91f29f88240f0b4e576b4288281cfa4e89f267e28316c42\"",
+      "source_sha256": "1fb581c8ff7c408a32e878c8f71ae89098f32e96240bba9c28706a042711ae3f",
+      "avif_sha256": "8412df5e8e15fdb2f7e907d52b055a2c36a08310cd49f7da1f77445e5ccbc2b7",
       "settings_rev": 1
     },
     "66737b00e88a389e": {
@@ -469,6 +476,13 @@
       "avif_sha256": "fad9bc1e6c06dbe7ddb123037fccce2ecf7d21a8ed7d57afe7b276168ba384a0",
       "settings_rev": 1
     },
+    "7b7e07a856e3e96c": {
+      "url": "https://eyecansee.montinaro.info/img/grid.webp",
+      "etag": "\"6b0ab3d1-b99e\"",
+      "source_sha256": "827e02536175a7d2b8c3b687fb113ea6528e7b78e6c3c058dbb3ae4d00d945ea",
+      "avif_sha256": "417cac1886daa91fbaecee2a77246878c4873cde19bf47ca1ebca40284043715",
+      "settings_rev": 1
+    },
     "7bbc0d87936eeae5": {
       "url": "https://raw.githubusercontent.com/aashiashique/ss/refs/heads/main/imsprog/2.webp",
       "etag": "\"1fae9aa75341c19619386976764e4f645424de644a0f7d3116ac131efbf9f084\"",
@@ -488,6 +502,20 @@
       "etag": "\"a49b80341d085f48f4bd55535c0f240c896e7e4bf2ead8606613621a588806ec\"",
       "source_sha256": "cd214bb00b7e78b9d5c07211f8139d8033135084756bfd2591dd72acb045180f",
       "avif_sha256": "98fb6a79bd1ca88f61a5c7ba735826ebc5e84691e4d943764bfb17d7868e7a47",
+      "settings_rev": 1
+    },
+    "7ff1696ec73089b6": {
+      "url": "https://eyecansee.montinaro.info/img/model-3d.webp",
+      "etag": "\"6b0ab3d1-2994\"",
+      "source_sha256": "82545d56591dbac9f3c50e4d7fdb505e34063eaeef517cc53ea09cf1ea207254",
+      "avif_sha256": "244d04439147660b090976e2da526e11897ae1d2d8f506f10298146ff2421933",
+      "settings_rev": 1
+    },
+    "80b654072160b839": {
+      "url": "https://eyecansee.montinaro.info/img/cad-drawing.webp",
+      "etag": "\"6b0ab3d1-3792\"",
+      "source_sha256": "e7fee525250a09062a8cf559f873772d309f3eff70f1bddd5d2907834a89a55d",
+      "avif_sha256": "937b02b588d9f28ef7a95bb5dfbee28133da8b7f1c9136f3915f782a72a92343",
       "settings_rev": 1
     },
     "86480f0367ca26fa": {
@@ -551,6 +579,13 @@
       "etag": "\"02a66ecffe029223a88f5af328af9f3e5fedebafc650ef3b6a56ac6de11352bc\"",
       "source_sha256": "bc3fa389f373e6c18f28587f12e47491eb6889ca3aa9209fdd30b7cf89d9fa8d",
       "avif_sha256": "409ca37dfeaaa7781cb1955dabb5531ade6ce642a0457c6a427e85d50ef2622b",
+      "settings_rev": 1
+    },
+    "9a63c8dd07c8ac06": {
+      "url": "https://eyecansee.montinaro.info/img/video-convert.webp",
+      "etag": "\"6b0ab3d1-912e\"",
+      "source_sha256": "a4836afd1dab233f28f012de15dbb40da70be6de37167a96b3a109978a5d4cde",
+      "avif_sha256": "e862266c94557a5c15f7b7d4b8c140ed5ec5a746c7b5d812fa3481e76408a666",
       "settings_rev": 1
     },
     "9af71777a307db6e": {
@@ -667,9 +702,9 @@
     },
     "abe9dd7abafe3d08": {
       "url": "https://raw.githubusercontent.com/iongion/container-desktop/main/website-src/static/img/unified/001-Dashboard.png",
-      "etag": "\"acdd0c7143cecb17d1adc407fd74533b623f0b28f89f7023af62553a463c1755\"",
-      "source_sha256": "4565281e02cac4d935bcdb679e53a7cc2cebc346cffcf4af7d3dc6749c1e6353",
-      "avif_sha256": "a2de2107783f31d66de60ede7795934a9510a26418fb6b86f2a9fe9fee00718a",
+      "etag": "\"d635b1a9f9cab7a496c6f165d2ee3e4108050849362bc457144f1b0989b87c28\"",
+      "source_sha256": "b789abb006dc5b6b383b4e500fafface20d288b0dd89d646c8a8742bacb2cea2",
+      "avif_sha256": "4643d17203666f1bee3bd4038e2cf6205f294c1785b390f5be7d0db38993f79e",
       "settings_rev": 1
     },
     "adb32718ed568e2a": {
@@ -730,16 +765,16 @@
     },
     "ba45dbda6b2b1ad1": {
       "url": "https://Portable-Linux-Apps.github.io/contribute_ss.webp",
-      "etag": "\"6b0946b6-21c8\"",
+      "etag": "\"6b0aa5af-21c8\"",
       "source_sha256": "70d6830add4521908c0253c9e1c7f0556362e48c278b8d4feab0761754b88924",
       "avif_sha256": "2ba53e6d8e02380cb711cbaaea392fea478b0a7b18106c9f465be4999a6716dd",
       "settings_rev": 1
     },
     "ba4758d175726d87": {
       "url": "https://raw.githubusercontent.com/iongion/container-desktop/main/website-src/static/img/unified/003-ContainerActions.png",
-      "etag": "\"93eb1f9d0260a6bd2b30ab9846e426d0bedc3674f87e43ee2f22a8e2fc893998\"",
-      "source_sha256": "bd32ec97c0094f76e411e42b67e1f525ddfb7fa1350d6c52f78567b50131e12e",
-      "avif_sha256": "2c4b8011349bf91694a2ebb16fe5e6b4186b31cefc2cff7c2b5380567518b914",
+      "etag": "\"22a7bd7be1c4ee960db52b07bc3398b7ca8b8382c02baf4c65451b1b67b76a52\"",
+      "source_sha256": "e5bc6d6a64a310b418b7b0eef8f55f061126fe1e88f4a3ea28b021cf920feb12",
+      "avif_sha256": "d6a6b67b5332829ec4bb60baa8ef3887df49160826f36b9469aab73ea8f173ab",
       "settings_rev": 1
     },
     "ba621b9e8dbd022a": {
@@ -772,7 +807,7 @@
     },
     "bf6d1d61f4c01b6f": {
       "url": "https://wekan.fi/wekan-board-views.png",
-      "etag": "\"6b08dfb4-38703\"",
+      "etag": "\"6b09cd5d-38703\"",
       "source_sha256": "bb4199ee6c3fd20262bfb7a77ec0ec251d98f8ce0007636cb96db224e9d8eb44",
       "avif_sha256": "250fa77f1526f18b794555791a01d8e1cae9fb36ec484518f6d668a42172e3f4",
       "settings_rev": 1
@@ -800,9 +835,9 @@
     },
     "c6a14c77355ce139": {
       "url": "https://raw.githubusercontent.com/iongion/container-desktop/main/website-src/static/img/podman/Pods.png",
-      "etag": "\"4e53b149dc98d657686edf554c6ba2e88e8b835e40dc3a574030d651f7e0c163\"",
-      "source_sha256": "f3421f70851353c18d1ce4f662abd7506e47afe98610671ea04c501175887143",
-      "avif_sha256": "02413d91ea4be5474adc0603af4bf266ee929bb844774a9b03cc51b97ed3827d",
+      "etag": "\"ef08b1fa3b49158c35e14865d16a57e1651c7b5e2366a1dadb967bc025bcd520\"",
+      "source_sha256": "e8c7efd62a1f25f6309eaa6f4d2794861d02ac29880070b071455532e4bc8ce4",
+      "avif_sha256": "7a68f92b9d837115954a2851f779042f5936e4af26072753220650417ab2d61f",
       "settings_rev": 1
     },
     "c8a048c0b6c8cb5b": {
@@ -828,9 +863,9 @@
     },
     "d0b611dc06c90975": {
       "url": "https://raw.githubusercontent.com/iongion/container-desktop/main/website-src/static/img/docker/ConnectionManager.png",
-      "etag": "\"8d310877b7015e757357529f2dc2d1475c03e770782fa5ccdda99ea35d566ef4\"",
-      "source_sha256": "9b3dc7bcc118b093842af2020a4d6192b7fe71587f5f264847da6803bdb2f951",
-      "avif_sha256": "0dd707e371b892393ea37e7f530285e6653f9ad3f8408e489d25230132dcd167",
+      "etag": "\"8148a34beaf77d0f0cc2c0b99bbab9eb9a042990d214527cb33f11addfc59f80\"",
+      "source_sha256": "6e41f0e818fd1507d928cd7da9b652ff4c84d296577e25e0f2c104c78692e8fd",
+      "avif_sha256": "5a8e398536d6d6815f1df189439b04830390306512917ba4959348c2c68f2153",
       "settings_rev": 1
     },
     "d134e971e3df382b": {
@@ -849,7 +884,7 @@
     },
     "d3a132c4dcabe195": {
       "url": "https://misterdownloadmanager.com/assets/screens/main-dark.webp",
-      "etag": "\"6b095a52-59de\"",
+      "etag": "\"6b0ab1cc-59de\"",
       "source_sha256": "b5fa7abe00658abf070e6b1d6d0adf691c266c507ab02e1063629a30fa35c930",
       "avif_sha256": "b4376badde9d09b8b8e19167c344c7f47ddf565efbedd2d012f7af6e22444661",
       "settings_rev": 1
@@ -915,6 +950,13 @@
       "etag": "\"b7f1912320f411ac77d1f096ec41c49c364bd56535fb69768661ed5d547b8318\"",
       "source_sha256": "3efbce1461f011278b2b5bd7dab9b53c411c7ede621a6340c91cd67eaad289c3",
       "avif_sha256": "26ab954791bc98333215f61ebdeaf9e15282b3ad5ff6d0dd88778af59cb2548d",
+      "settings_rev": 1
+    },
+    "e65faf0d19edcbf0": {
+      "url": "https://eyecansee.montinaro.info/img/viewer.webp",
+      "etag": "\"6b0ab3d1-52d4\"",
+      "source_sha256": "33ffde6774be000f0f5ddc0ef72575a60fe044be95b535ead6868759ba450cb3",
+      "avif_sha256": "3fd6f25939804d436ff8e7f87c5c257fa3f7691d0e8d868a68c4c713b9f2144f",
       "settings_rev": 1
     },
     "e69db224e3b237a0": {
